@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from app import Athlete, Event, Meet, Result
+from app.models import Athlete, Event, Meet, Result
 
 class AthleteSerializer(serializers.ModelSerializer):
   class Meta:
