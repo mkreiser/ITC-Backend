@@ -7,7 +7,7 @@ class Athlete (models.Model):
     ('Female', 'Female')
   )
 
-  enrollment_options = (
+  membership_options = (
     ('Club', 'Club'),
     ('Alum', 'Alum'),
     ('Elite', 'Elite')
@@ -15,7 +15,7 @@ class Athlete (models.Model):
 
   name = models.CharField(max_length = 50)
   gender = models.CharField(max_length = 10, choices = gender_options)
-  status = models.CharField(max_length = 10, choices = enrollment_options)
+  membership = models.CharField(max_length = 10, choices = membership_options)
 
   def __str__(self):
     return self.name
