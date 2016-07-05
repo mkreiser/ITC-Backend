@@ -14,6 +14,7 @@ from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, 
 
 import django_filters
 
+# ATHLETE SERIALIZERS
 class AthleteGETAll(generics.ListAPIView):
   queryset = Athlete.objects.all()
   serializer_class = AthleteSerializer
@@ -34,3 +35,65 @@ class AthleteDELETE(generics.DestroyAPIView):
   queryset = Athlete.objects.all()
   serializer_class = AthleteSerializer
 
+# EVENT SERIALIZERS
+class EventGETAll(generics.ListAPIView):
+  queryset = Event.objects.all()
+  serializer_class = EventSerializer
+
+class EventGET(generics.RetrieveAPIView):
+  queryset = Event.objects.all()
+  serializer_class = EventSerializer
+
+class EventPOST(generics.CreateAPIView):
+  queryset = Event.objects.all()
+  serializer_class = EventSerializer
+
+class EventPUT(generics.RetrieveUpdateAPIView):
+  queryset = Event.objects.all()
+  serializer_class = EventSerializer
+
+class EventDELETE(generics.DestroyAPIView):
+  queryset = Event.objects.all()
+  serializer_class = EventSerializer
+
+# MEET SERIALIZERS
+class MeetGETAll(generics.ListAPIView):
+  queryset = Meet.objects.all()
+  serializer_class = MeetSerializer
+
+class MeetGET(generics.RetrieveAPIView):
+  queryset = Meet.objects.all()
+  serializer_class = MeetSerializer
+
+class MeetPOST(generics.CreateAPIView):
+  queryset = Meet.objects.all()
+  serializer_class = MeetSerializer
+
+class MeetPUT(generics.RetrieveUpdateAPIView):
+  queryset = Meet.objects.all()
+  serializer_class = MeetSerializer
+
+class MeetDELETE(generics.DestroyAPIView):
+  queryset = Meet.objects.all()
+  serializer_class = MeetSerializer
+
+# RESULT SERIALIZERS
+class ResultGETAll(generics.ListAPIView):
+  queryset = Result.objects.all()
+  serializer_class = ResultSerializer
+
+class ResultGET(generics.RetrieveAPIView):
+  queryset = Result.objects.all()
+  serializer_class = ResultSerializer
+
+class ResultPOST(generics.CreateAPIView):
+  queryset = Result.objects.all()
+  serializer_class = ResultSerializer
+
+class ResultPUT(generics.RetrieveUpdateAPIView):
+  queryset = Result.objects.all()
+  serializer_class = ResultSerializer
+
+class ResultDELETE(generics.DestroyAPIView):
+  queryset = Result.objects.all()
+  serializer_class = ResultSerializer
