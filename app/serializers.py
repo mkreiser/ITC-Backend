@@ -19,4 +19,4 @@ class MeetSerializer(serializers.ModelSerializer):
 class ResultSerializer(serializers.ModelSerializer):
   class Meta:
     model = Result
-    fields = ('id', 'athlete', 'event', 'result', 'distanceResult')
+    fields = ('id', 'athlete', 'distanceResult', 'event', 'meet', 'result', 'result_membership')

@@ -1,53 +1,56 @@
 from django.db import models
 
+
+MALE = 'Male'
+FEMALE =  'Female'
+GENDER_OPTIONS = (
+  (MALE, 'Male'),
+  (FEMALE, 'Female')
+)
+
+CLUB = 'Club'
+ALUM = 'Alum'
+ELITE = 'Elite'
+MEMBERSHIP_OPTIONS = (
+  (CLUB, 'Club'),
+  (ALUM, 'Alum'),
+  (ELITE, 'Elite')
+)
+
+XC = 'XC'
+INDOOR = 'Indoor'
+OUTDOOR = 'Outdoor'
+SEASON_OPTIONS = (
+  (XC, 'XC'),
+  (INDOOR, 'Indoor'),
+  (OUTDOOR, 'Outdoor')
+)
+
 # Create your models here.
 class Athlete (models.Model):
-  gender_options = (
-    ('Male', 'Male'),
-    ('Female', 'Female')
-  )
-
-  membership_options = (
-    ('Club', 'Club'),
-    ('Alum', 'Alum'),
-    ('Elite', 'Elite')
-  )
-
   name = models.CharField(max_length = 50)
-  gender = models.CharField(max_length = 10, choices = gender_options)
-  membership = models.CharField(max_length = 10, choices = membership_options)
+  gender = models.CharField(max_length = 10, choices = GENDER_OPTIONS)
+  membership = models.CharField(max_length = 10, choices = MEMBERSHIP_OPTIONS, default = CLUB)
 
   def __str__(self):
     return self.name
 
 class Event (models.Model):
-  season_options = (
-    ('XC', 'XC'),
-    ('Indoor', 'Indoor'),
-    ('Outdoor', 'Outdoor')
-  )
-
   name = models.CharField(max_length = 50)
-  season = models.CharField(max_length = 10, choices = season_options)
+  season = models.CharField(max_length = 10, choices = SEASON_OPTIONS)
   relay = models.BooleanField(default = False)
 
   def __str__(self):
     return self.name
 
 class Meet (models.Model):
-  season_options = (
-    ('XC', 'XC'),
-    ('Indoor', 'Indoor'),
-    ('Outdoor', 'Outdoor')
-  )
-
   date = models.DateField()
   host = models.CharField(max_length = 50)
   location = models.CharField(max_length = 50)
   name = models.CharField(max_length = 100)
   notes = models.TextField()
   resultURL = models.TextField()
-  season = models.CharField(max_length = 10, choices = season_options)
+  season = models.CharField(max_length = 10, choices = SEASON_OPTIONS)
   splitURL = models.TextField()
 
   def __str__(self):
@@ -55,9 +58,11 @@ class Meet (models.Model):
 
 class Result (models.Model):
   athlete = models.ForeignKey(Athlete, on_delete = models.DO_NOTHING)
-  event = models.ForeignKey(Event, on_delete = models.DO_NOTHING)
-  result = models.FloatField(null = False)
   distanceResult = models.BooleanField(default = False)
+  event = models.ForeignKey(Event, on_delete = models.DO_NOTHING)
+  meet = models.ForeignKey(Meet, on_delete = models.DO_NOTHING)
+  result = models.FloatField(null = False)
+  result_membership = models.CharField(max_length = 6, choices = MEMBERSHIP_OPTIONS, default = CLUB)
 
   def __str__(self):
     return self.result
