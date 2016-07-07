@@ -1,43 +1,43 @@
 from django.db import models
 
+class ModelEnums (models.Model):
+  MALE = 'Male'
+  FEMALE =  'Female'
+  GENDER_OPTIONS = (
+    (MALE, MALE),
+    (FEMALE, FEMALE)
+  )
 
-MALE = 'Male'
-FEMALE =  'Female'
-GENDER_OPTIONS = (
-  (MALE, 'Male'),
-  (FEMALE, 'Female')
-)
+  CLUB = 'Club'
+  ALUM = 'Alum'
+  ELITE = 'Elite'
+  MEMBERSHIP_OPTIONS = (
+    (CLUB, CLUB),
+    (ALUM, ALUM),
+    (ELITE, ELITE)
+  )
 
-CLUB = 'Club'
-ALUM = 'Alum'
-ELITE = 'Elite'
-MEMBERSHIP_OPTIONS = (
-  (CLUB, 'Club'),
-  (ALUM, 'Alum'),
-  (ELITE, 'Elite')
-)
-
-XC = 'XC'
-INDOOR = 'Indoor'
-OUTDOOR = 'Outdoor'
-SEASON_OPTIONS = (
-  (XC, 'XC'),
-  (INDOOR, 'Indoor'),
-  (OUTDOOR, 'Outdoor')
-)
+  XC = 'XC'
+  INDOOR = 'Indoor'
+  OUTDOOR = 'Outdoor'
+  SEASON_OPTIONS = (
+    (XC, XC),
+    (INDOOR, INDOOR),
+    (OUTDOOR, OUTDOOR)
+  )
 
 # Create your models here.
 class Athlete (models.Model):
   name = models.CharField(max_length = 50)
-  gender = models.CharField(max_length = 10, choices = GENDER_OPTIONS)
-  membership = models.CharField(max_length = 10, choices = MEMBERSHIP_OPTIONS, default = CLUB)
+  gender = models.CharField(max_length = 10, choices = ModelEnums.GENDER_OPTIONS)
+  membership = models.CharField(max_length = 10, choices = ModelEnums.MEMBERSHIP_OPTIONS, default = ModelEnums.CLUB)
 
   def __str__(self):
     return self.name
 
 class Event (models.Model):
   name = models.CharField(max_length = 50)
-  season = models.CharField(max_length = 10, choices = SEASON_OPTIONS)
+  season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
   relay = models.BooleanField(default = False)
 
   def __str__(self):
@@ -50,7 +50,7 @@ class Meet (models.Model):
   name = models.CharField(max_length = 100)
   notes = models.TextField()
   resultURL = models.TextField()
-  season = models.CharField(max_length = 10, choices = SEASON_OPTIONS)
+  season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
   splitURL = models.TextField()
 
   def __str__(self):
@@ -62,7 +62,7 @@ class Result (models.Model):
   event = models.ForeignKey(Event, on_delete = models.DO_NOTHING)
   meet = models.ForeignKey(Meet, on_delete = models.DO_NOTHING)
   result = models.FloatField(null = False)
-  result_membership = models.CharField(max_length = 6, choices = MEMBERSHIP_OPTIONS, default = CLUB)
+  result_membership = models.CharField(max_length = 6, choices = ModelEnums.MEMBERSHIP_OPTIONS, default = ModelEnums.CLUB)
 
   def __str__(self):
     return self.result
