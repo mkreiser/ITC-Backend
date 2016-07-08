@@ -1,9 +1,16 @@
 from django.db import models
 
 class ModelEnums (models.Model):
+  BOTH = 'Both'
   MALE = 'Male'
   FEMALE =  'Female'
   GENDER_OPTIONS = (
+    (MALE, MALE),
+    (FEMALE, FEMALE)
+  )
+
+  EVENT_GENDER_OPTIONS = (
+    (BOTH, BOTH),
     (MALE, MALE),
     (FEMALE, FEMALE)
   )
@@ -28,17 +35,18 @@ class ModelEnums (models.Model):
 
 # Create your models here.
 class Athlete (models.Model):
-  name = models.CharField(max_length = 50)
   gender = models.CharField(max_length = 10, choices = ModelEnums.GENDER_OPTIONS)
   membership = models.CharField(max_length = 10, choices = ModelEnums.MEMBERSHIP_OPTIONS, default = ModelEnums.CLUB)
+  name = models.CharField(max_length = 50)
 
   def __str__(self):
     return self.name
 
 class Event (models.Model):
+  gender = models.CharField(max_length = 10, choices = ModelEnums.EVENT_GENDER_OPTIONS, default = ModelEnums.BOTH)
   name = models.CharField(max_length = 50)
-  season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
   relay = models.BooleanField(default = False)
+  season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
 
   def __str__(self):
     return self.name

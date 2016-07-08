@@ -4,12 +4,12 @@ from app.models import Athlete, Event, Meet, Result
 class AthleteSerializer(serializers.ModelSerializer):
   class Meta:
     model = Athlete
-    fields = ('id', 'name', 'gender', 'membership')
+    fields = ('id', 'gender', 'membership', 'name')
 
 class EventSerializer(serializers.ModelSerializer):
   class Meta:
     model = Event
-    fields = ('id', 'name', 'season', 'relay')
+    fields = ('id', 'gender', 'name', 'season', 'relay')
 
 class MeetSerializer(serializers.ModelSerializer):
   class Meta:
