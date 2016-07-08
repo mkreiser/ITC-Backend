@@ -65,7 +65,7 @@ class Meet (models.Model):
     return self.name
 
 class Result (models.Model):
-  athlete = models.ForeignKey(Athlete, on_delete = models.DO_NOTHING)
+  athlete = models.ManyToManyField(Athlete)
   distanceResult = models.BooleanField(default = False)
   event = models.ForeignKey(Event, on_delete = models.DO_NOTHING)
   meet = models.ForeignKey(Meet, on_delete = models.DO_NOTHING)
