@@ -1,5 +1,7 @@
 from django.db import models
 
+# Create your models here.
+
 class ModelEnums (models.Model):
   BOTH = 'Both'
   MALE = 'Male'
@@ -56,10 +58,10 @@ class Meet (models.Model):
   host = models.CharField(max_length = 50)
   location = models.CharField(max_length = 50)
   name = models.CharField(max_length = 100)
-  notes = models.TextField()
-  resultURL = models.TextField()
+  notes = models.TextField(blank=True)
+  resultURL = models.TextField(blank=True)
   season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
-  splitURL = models.TextField()
+  splitURL = models.TextField(blank=True)
 
   def __str__(self):
     return self.name
@@ -74,3 +76,4 @@ class Result (models.Model):
 
   def __str__(self):
     return self.result
+
