@@ -132,7 +132,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Challenge",
     "date": "2011-09-02",
     "host": "",
@@ -145,7 +145,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
     "date": "2011-10-01",
     "host": "",
@@ -158,7 +158,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "IWU Titan Invite",
     "date": "2011-10-07",
     "host": "Illinois Wesleyan University",
@@ -171,7 +171,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Jim Drews \/ Tori Neubauer Invite",
     "date": "2011-10-15",
     "host": "University of Wisconsin-LaCrosse",
@@ -184,7 +184,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Great Plains Regional",
     "date": "2011-10-29",
     "host": "NIRCA",
@@ -197,7 +197,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Nationals",
     "date": "2011-11-12",
     "host": "NIRCA",
@@ -210,7 +210,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Challenge",
     "date": "2010-09-03",
     "host": "University of Illinois",
@@ -223,7 +223,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Midwest Regional",
     "date": "2009-10-24",
     "host": "NIRCA",
@@ -236,7 +236,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Nationals",
     "date": "2009-10-14",
     "host": "NIRCA",
@@ -249,7 +249,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Gibson Family Invite",
     "date": "2009-10-10",
     "host": "Rose-Hulman Institute of Technology",
@@ -262,7 +262,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
     "date": "2009-10-03",
     "host": "Loyola University Chicago",
@@ -275,7 +275,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "EIU Panther Open",
     "date": "2009-09-11",
     "host": "Eastern Illinois University",
@@ -288,7 +288,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Challenge",
     "date": "2009-09-04",
     "host": "University of Illinois",
@@ -301,7 +301,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Nationals",
     "date": "2008-11-08",
     "host": "NIRCA",
@@ -314,7 +314,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Open",
     "date": "2008-10-24",
     "host": "University of Illinois",
@@ -327,7 +327,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Regionals",
     "date": "2008-10-18",
     "host": "Ball State University",
@@ -340,7 +340,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
     "date": "2008-09-27",
     "host": "Loyola University Chicago",
@@ -353,7 +353,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illinois Intercollegiate Championships",
     "date": "2008-09-19",
     "host": "Illinois State University",
@@ -366,7 +366,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "EIU Panther Open",
     "date": "2008-09-12",
     "host": "Eastern Illinois University",
@@ -379,7 +379,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Challenge",
     "date": "2008-08-29",
     "host": "University of Illinois",
@@ -392,7 +392,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "EIU Panther Open",
     "date": "2010-09-10",
     "host": "Eastern Illinois University",
@@ -405,7 +405,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
     "date": "2010-10-02",
     "host": "Loyala University Chicago",
@@ -418,7 +418,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Gibson Family Invite",
     "date": "2010-10-09",
     "host": "Rose-Hulman Institute of Technology",
@@ -431,7 +431,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Midwest Regional",
     "date": "2010-10-23",
     "host": "NIRCA",
@@ -444,7 +444,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Nationals",
     "date": "2010-11-13",
     "host": "NIRCA",
@@ -1003,7 +1003,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Challenge",
     "date": "2012-08-31",
     "host": "University of Illinois",
@@ -1016,7 +1016,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
     "date": "2012-09-29",
     "host": "",
@@ -1029,7 +1029,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "IWU Titan Invite",
     "date": "2012-10-05",
     "host": "Illinois Wesleyan",
@@ -1042,7 +1042,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "EIU Walt Crawford Open",
     "date": "2012-09-07",
     "host": "Eastern Illinois University",
@@ -1055,7 +1055,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Great Plains Regional",
     "date": "2012-10-20",
     "host": "Iowa State",
@@ -1068,7 +1068,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Nationals",
     "date": "2012-11-10",
     "host": "",
@@ -1159,7 +1159,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Bradley Classic",
     "date": "2012-10-12",
     "host": "Bradley University",
@@ -1289,7 +1289,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Challenge",
     "date": "2013-08-30",
     "host": "University of Illinois",
@@ -1302,7 +1302,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "EIU Walt Crawford Open",
     "date": "2013-09-06",
     "host": "Eastern Illinois University",
@@ -1315,7 +1315,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Brissman-Lundeen Invitational",
     "date": "2013-09-27",
     "host": "Augustana College",
@@ -1328,7 +1328,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "IWU Titan Invite",
     "date": "2013-10-04",
     "host": "Illinois Wesleyan University",
@@ -1341,7 +1341,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Lucian Rosa Invitational",
     "date": "2013-10-12",
     "host": "University of Wisconsin - Parkside",
@@ -1625,7 +1625,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Great Plains Regional",
     "date": "2013-11-02",
     "host": "University of Illinois",
@@ -1638,7 +1638,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Challenge",
     "date": "2014-08-29",
     "host": "University of Illinois",
@@ -1664,7 +1664,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "EIU Walt Crawford Open",
     "date": "2014-09-05",
     "host": "EIU",
@@ -1677,7 +1677,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Augustana Brissman-Lundeen Invitational",
     "date": "2014-09-26",
     "host": "Augustana University",
@@ -1690,7 +1690,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "UW-Parkside Lucian Rosa Invitational",
     "date": "2014-10-11",
     "host": "UW-Parkside",
@@ -1703,7 +1703,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "SIU-E John Flamer Invite",
     "date": "2014-10-04",
     "host": "Southern Illinois University-Edwardsville",
@@ -1716,7 +1716,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Great Plains Regionals",
     "date": "2014-11-01",
     "host": "University of Illinois",
@@ -1794,7 +1794,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Nationals",
     "date": "2014-11-15",
     "host": "Michigan St. University",
@@ -2066,7 +2066,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "EIU Walt Crawford Open",
     "date": "2015-09-04",
     "host": "EIU",
@@ -2079,7 +2079,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Augustana Brissman-Lundeen Invitational",
     "date": "2015-09-26",
     "host": "Augustana",
@@ -2092,7 +2092,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "UW-Parkside Lucian Rosa Invitational",
     "date": "2015-10-10",
     "host": "UW-Parkside",
@@ -2105,7 +2105,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Great Plains Regionals",
     "date": "2015-10-31",
     "host": "University of Illinois",
@@ -2118,7 +2118,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "Illini Open",
     "date": "2015-10-23",
     "host": "University of Illinois",
@@ -2157,7 +2157,7 @@
 {
     "model": "app.meet",
     "fields": {
-    "season": "xc",
+    "season": "XC",
     "name": "NIRCA Nationals",
     "date": "2015-11-14",
     "host": "University of Kentucky",
