@@ -1,0 +1,2377 @@
+[
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invite",
+    "date": "2012-03-30",
+    "host": "Washington University",
+    "location": "St. Louis, MO",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-WashingtonUniversityInvite-Results.pdf",
+    "splitURL": "",
+    "notes": "Sunny, great day!"
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "XC",
+    "name": "EIU Walt Crawford Open",
+    "date": "2011-09-09",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-EIUWaltCrawfordOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Rose-Hulman Early Bird",
+    "date": "2012-03-24",
+    "host": "Rose-Hulman",
+    "location": "Terre Haute, IN",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-Rose-HulmanEarlyBird-Results.pdf",
+    "splitURL": "",
+    "notes": "Only steeple and 1 guy in the 1500. Awesome weather, 60's and sunny."
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Miami Invitational",
+    "date": "2012-04-07",
+    "host": "Miami University",
+    "location": "Oxford, OH",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-MiamiInvitational-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Benedictine Eagle Invite",
+    "date": "2012-04-14",
+    "host": "Benedictine University",
+    "location": "Lisle, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-BenedictineEagleInvite-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Wheaton College Twilight",
+    "date": "2012-04-14",
+    "host": "Wheaton College",
+    "location": "Wheaton, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-WheatonCollegeTwilight-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Millikin Big Blue Invitational",
+    "date": "2012-04-22",
+    "host": "Millikin University",
+    "location": "DeCauter, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-MillikinBigBlueInvitational-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCTFA Nationals",
+    "date": "2012-04-28",
+    "host": "",
+    "location": "Richmond, KY",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-NCTFANationals-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Dr. Keeler T&F Meet",
+    "date": "2012-05-10",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-NCCDr.KeelerT&FMeet.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Wisconsin Open",
+    "date": "2012-05-04",
+    "host": "",
+    "location": "Madison, WI",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-WisconsinOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Challenge",
+    "date": "2011-09-02",
+    "host": "",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-IlliniChallenge-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Loyola Sean Earl Lakefront Invite",
+    "date": "2011-10-01",
+    "host": "",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-LoyolaSeanEarlLakefrontInvite-Results.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-LoyolaSeanEarlLakefrontInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "IWU Titan Invite",
+    "date": "2011-10-07",
+    "host": "Illinois Wesleyan University",
+    "location": "Normal, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-IWUTitanInvite-Results.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-IWUTitanInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Jim Drews \/ Tori Neubauer Invite",
+    "date": "2011-10-15",
+    "host": "University of Wisconsin-LaCrosse",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-JimDrewsToriNeubauerInvite-Results.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-JimDrewsToriNeubauerInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Great Plains Regional",
+    "date": "2011-10-29",
+    "host": "NIRCA",
+    "location": "Columbia, MO",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-NIRCAGreatPlainsRegional-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Nationals",
+    "date": "2011-11-12",
+    "host": "NIRCA",
+    "location": "Charlotte, NC",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-NIRCANationals-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Challenge",
+    "date": "2010-09-03",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-IlliniChallenge-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-IlliniChallenge-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Midwest Regional",
+    "date": "2009-10-24",
+    "host": "NIRCA",
+    "location": "Middleton, WI",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-NIRCAMidwestRegional-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Nationals",
+    "date": "2009-10-14",
+    "host": "NIRCA",
+    "location": "Ypsilanti, MI",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-NIRCANationals-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Gibson Family Invite",
+    "date": "2009-10-10",
+    "host": "Rose-Hulman Institute of Technology",
+    "location": "Terre Haute, IN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-RoseHulman-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Loyola Sean Earl Lakefront Invite",
+    "date": "2009-10-03",
+    "host": "Loyola University Chicago",
+    "location": "Chicago, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-LoyolaSeanEarlLakefrontInvite-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-LoyolaSeanEarlLakefrontInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "EIU Panther Open",
+    "date": "2009-09-11",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-EIUPantherOpen-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-EIUPantherOpen-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Challenge",
+    "date": "2009-09-04",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-IlliniChallenge-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-IlliniChallenge-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Nationals",
+    "date": "2008-11-08",
+    "host": "NIRCA",
+    "location": "State College, PA",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-XC\/",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Open",
+    "date": "2008-10-24",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-XC\/2008-NIRCANationals-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Regionals",
+    "date": "2008-10-18",
+    "host": "Ball State University",
+    "location": "Muncie, IN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-XC\/2008-NIRCARegionals-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Loyola Sean Earl Lakefront Invite",
+    "date": "2008-09-27",
+    "host": "Loyola University Chicago",
+    "location": "Chicago, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-XC\/2008-LoyolaSeanEarlLakefrontInvite-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illinois Intercollegiate Championships",
+    "date": "2008-09-19",
+    "host": "Illinois State University",
+    "location": "",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-XC\/2008-IllinoisIntercollegiateChampionships-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "EIU Panther Open",
+    "date": "2008-09-12",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-XC\/2008-EIUPantherOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Challenge",
+    "date": "2008-08-29",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-XC\/2008-IlliniChallenge-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "EIU Panther Open",
+    "date": "2010-09-10",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-EIUPantherOpen-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-EIUPantherOpen-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Loyola Sean Earl Lakefront Invite",
+    "date": "2010-10-02",
+    "host": "Loyala University Chicago",
+    "location": "Chicago, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-LoyolaSeanEarlLakefrontInvite-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Gibson Family Invite",
+    "date": "2010-10-09",
+    "host": "Rose-Hulman Institute of Technology",
+    "location": "Terre Haute, IN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-GibsonFamilyInvite-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-GibsonFamilyInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Midwest Regional",
+    "date": "2010-10-23",
+    "host": "NIRCA",
+    "location": "Minneapolis, MN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-NIRCAMidwestRegional-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Nationals",
+    "date": "2010-11-13",
+    "host": "NIRCA",
+    "location": "Bloomington, IN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-NIRCANationals-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Mega Meet",
+    "date": "2010-01-23",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-EIUMegaMeet-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-EIUMegaMeet-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2010-01-30",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IWUTitanOpen.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IWUTitanOpen-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2010-02-13",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IllinoisClubRelays-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IllinoisClubRelays-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Friday Night Special",
+    "date": "2010-02-19",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-EIUFridayNightSpecial-Results.pdf",
+    "splitURL": "\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-EIUFridayNightSpecial-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Rose-Hulman Early Bird",
+    "date": "2010-03-20",
+    "host": "Rose-Hulman Institute of Technology",
+    "location": "Terre Haute, IN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-Rose-HulmanEarlyBird-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invite",
+    "date": "2010-04-02",
+    "host": "Washington University",
+    "location": "St. Louis, MO",
+    "resultURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-WashingtonUniversityInvite-Results.pdf",
+    "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-WashingtonUniversityInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Benedictine Eagle Invite",
+    "date": "2010-04-17",
+    "host": "Benedictine University",
+    "location": "Lisle, IL",
+    "resultURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-BenedictineEagleInvite-Results.pdf",
+    "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-BenedictineEagleInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Gina Relays",
+    "date": "2010-04-24",
+    "host": "Hillsdale College",
+    "location": "Hillsdale, MI",
+    "resultURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-GinaRelays-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Loras Invitational",
+    "date": "2010-04-24",
+    "host": "Loras College",
+    "location": "Dubuque, IA",
+    "resultURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-LorasInvitational-Results.pdf",
+    "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-LorasInvitational-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Illini Twilight",
+    "date": "2010-04-30",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IlliniTwilight-Results.pdf",
+    "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IlliniTwilight-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Dr. Keeler T&F Meet",
+    "date": "2010-05-13",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-NCCDr.KeelerT&FMeet-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Mega Meet",
+    "date": "2011-01-22",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-EIUMegaMeet-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-EIUMegaMeet-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2011-01-29",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-IWUTitanOpen-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-IWUTitanOpen-Results and Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2011-02-05",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-ClubRelays-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-IllinoisClubRelays-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Friday Night Special",
+    "date": "2011-02-18",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-EIUFridayNight-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-EIUFridayNight-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Rose-Hulman Early Bird",
+    "date": "2011-03-19",
+    "host": "Rose-Hulman Institute of Technology",
+    "location": "Terre Haute, IN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-Rose-HulmanEarlyBird-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invite",
+    "date": "2011-04-01",
+    "host": "Washington University",
+    "location": "St. Louis, MO",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-WashingtonUniversityInvite-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-WashingtonUniversityInvite-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "WIU Lee Calhoun Memorial Invite",
+    "date": "2011-04-08",
+    "host": "Western Illinois University",
+    "location": "Macomb, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-WIULeeCalhounMemorialInvite-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCTFA National Championship",
+    "date": "2011-04-16",
+    "host": "Bowling Green State Universuty",
+    "location": "Bowling Green, OH",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-NCTFANationalChampionship-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-NCTFANationalChampionship-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Gina Relays",
+    "date": "2011-04-28",
+    "host": "Hillsdale College",
+    "location": "Hillsdale, MI",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-GinaRelays-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "True Blue Open",
+    "date": "2011-04-30",
+    "host": "Illinois College",
+    "location": "Jacksonville, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Dr. Keeler T&F Meet",
+    "date": "2011-05-12",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-North Central-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU First Chance",
+    "date": "2011-12-02",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-IWUFirstChance-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illini Open",
+    "date": "2012-01-14",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-IlliniOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU John Craft Invite",
+    "date": "2012-01-21",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-EIUMegaMeet-Results.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-EIUMegaMeet-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2012-01-28",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-IWUTitanOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Bob Keck Invite",
+    "date": "2012-02-03",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-IWUBobKeckInvite-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Orange & Blue Open",
+    "date": "2012-02-04",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-IlliniOrangeBlue-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Friday Night Special",
+    "date": "2012-02-17",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-EIUFridayNightSpecial-Results.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-EIUFridayNightSpecial-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Kent State Tune-Up",
+    "date": "2012-02-18",
+    "host": "Kent State University",
+    "location": "Kent, OH",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-KentStateTune-Up-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2012-02-25",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-ClubRelays-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "USATF Masters Indoor Championships",
+    "date": "2012-03-16",
+    "host": "USATF",
+    "location": "Bloomington, IN",
+    "resultURL": "",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Mega Meet",
+    "date": "2009-01-24",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-EIUMegaMeet-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2009-01-31",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-IWUTitanOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2009-02-14",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-IllinoisClubRelays-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Friday Night Special",
+    "date": "2009-02-20",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-EIUFridayNightSpecial-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Viking Classic",
+    "date": "2009-03-28",
+    "host": "North Park University",
+    "location": "Chicago, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-VikingClassic-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invite",
+    "date": "2009-04-04",
+    "host": "Washington University",
+    "location": "St. Louis, MO",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-WashingtonUniversityInvite-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Dick Young Classic",
+    "date": "2009-04-18",
+    "host": "Grinnell College",
+    "location": "Grinnell, IA",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-DickYoungClassic-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Loras Open",
+    "date": "2009-04-25",
+    "host": "Loras College",
+    "location": "Dubuque, IA",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-LorasOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Illini Open",
+    "date": "2009-05-02",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-IlliniOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Dr. Keeler T&F Meet",
+    "date": "2009-05-07",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-Track\/2009-NCCDr.KeelerT&FMeet-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Challenge",
+    "date": "2012-08-31",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-IlliniChallenge-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-IlliniChallenge-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Loyola Sean Earl Lakefront Invite",
+    "date": "2012-09-29",
+    "host": "",
+    "location": "Chicago, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-LoyolaSeanEarlLakefrontInvite-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-LoyolaSeanEarl-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "IWU Titan Invite",
+    "date": "2012-10-05",
+    "host": "Illinois Wesleyan",
+    "location": "Normal, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-IWUTitanInvite-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-IWU-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "EIU Walt Crawford Open",
+    "date": "2012-09-07",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-EIUWaltCrawfordOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Great Plains Regional",
+    "date": "2012-10-20",
+    "host": "Iowa State",
+    "location": "Ames, IA",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-NIRCAGreatPlainsRegional-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-Regionals-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Nationals",
+    "date": "2012-11-10",
+    "host": "",
+    "location": "Hershey, PA",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-NIRCANationals-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Friday Night Special",
+    "date": "2013-02-16",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-EIUFridayNight-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-EIUFridayNight-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2008-02-02",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2008-Track\/2008-IWUTitanOpen-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU John Craft Invite",
+    "date": "2013-01-19",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-EIUJohnCraft-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2013-01-26",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-IWUTitanOpen-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-IWUTitanOpen-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2013-02-23",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-IllinoisClubRelays.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-IllinoisClubRelays-Splits.pdf",
+    "notes": "Wooo"
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "SIUE Twilight Invitational",
+    "date": "2011-04-23",
+    "host": "Southern Illinois University",
+    "location": "Edwardsville, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-SIUETwilightInvitational-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-SIUE-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Bradley Classic",
+    "date": "2012-10-12",
+    "host": "Bradley University",
+    "location": "Peoria, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-Bradley-Results.pdf",
+    "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-Bradley-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invite",
+    "date": "2013-03-29",
+    "host": "Washington University Invite",
+    "location": "St. Louis, MO",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-WashU-Results.pdf",
+    "splitURL": "",
+    "notes": "Great weather Friday Night 50-60 and clear. 50's and overcast on Saturday, rainy in the afternoon \/ evening."
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Rose-Hulman Early Bird",
+    "date": "2013-03-23",
+    "host": "Rose-Hulman Institute of Technology",
+    "location": "Terre Haute, IN",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-RoseHulman-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NIRCA Track Nationals",
+    "date": "2013-04-06",
+    "host": "Indiana University",
+    "location": "Bloomington, IN",
+    "resultURL": "http:\/\/www.iuhoosiers.com\/livestats\/c-track\/NIRCA13\/",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Benedictine Eagle Invite",
+    "date": "2013-04-13",
+    "host": "Benedictine University",
+    "location": "Lisle, IL",
+    "resultURL": "http:\/\/michianatiming.com\/live\/benedictine-4-14-13\/",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Hillsdale College Gina Relays",
+    "date": "2013-04-25",
+    "host": "Hillsdale College",
+    "location": "Hillsdale, MI",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-GinaRelays-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Illinois College True Blue Open",
+    "date": "2013-04-27",
+    "host": "Illinois College",
+    "location": "Jacksonville, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-IllinoisCollege-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Dr. Keeler T&F Meet",
+    "date": "2013-05-09",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-NCCKeeler-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Gregory Final Qualifier",
+    "date": "2013-05-16",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-NCCGregory-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Kent State Golden Flash Gala",
+    "date": "2012-12-07",
+    "host": "Kent State University",
+    "location": "Kent, OH",
+    "resultURL": "http:\/\/www.deltatiming.com\/results\/events_byschedule.aspx?yf=2013&mf=2012-kent-state-golden-flash-gala",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Challenge",
+    "date": "2013-08-30",
+    "host": "University of Illinois",
+    "location": "University of Illinois Arboretum",
+    "resultURL": "https:\/\/docs.google.com\/a\/illinois.edu\/file\/d\/0B-l5eCSMcN2iMHpHOTg3cmwwcjQ\/edit",
+    "splitURL": "https:\/\/docs.google.com\/spreadsheet\/ccc?key=0AtIcLT5q5sCFdDUtLTJwOEw2Zzg1T3Q5eDAyYXM3dXc&usp=sharing",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "EIU Walt Crawford Open",
+    "date": "2013-09-06",
+    "host": "Eastern Illinois University",
+    "location": "",
+    "resultURL": "https:\/\/docs.google.com\/file\/d\/0B-l5eCSMcN2iLXhOYy1VcjJ4bVk\/edit?usp=sharing",
+    "splitURL": "https:\/\/docs.google.com\/a\/illinois.edu\/spreadsheet\/ccc?key=0AtIcLT5q5sCFdG9wMC1tUVZoSWdDMWZRVkhwUW9LS0E#gid=0",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Brissman-Lundeen Invitational",
+    "date": "2013-09-27",
+    "host": "Augustana College",
+    "location": "Rock Island, Illinois",
+    "resultURL": "https:\/\/docs.google.com\/file\/d\/0B-l5eCSMcN2ibDhhYXhJN19XRms\/edit?usp=sharing",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "IWU Titan Invite",
+    "date": "2013-10-04",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "https:\/\/docs.google.com\/a\/illinois.edu\/file\/d\/0B-l5eCSMcN2iWXpDNmg1MWRhVGs\/edit?usp=sharing",
+    "splitURL": "https:\/\/docs.google.com\/a\/illinois.edu\/spreadsheet\/ccc?key=0AtIcLT5q5sCFdENmeERDWWpobXQ0VkVqYkJ5ZzI3UlE&usp=docslist_api#gid=0",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Lucian Rosa Invitational",
+    "date": "2013-10-12",
+    "host": "University of Wisconsin - Parkside",
+    "location": "Somers, WI",
+    "resultURL": "https:\/\/docs.google.com\/file\/d\/0B-l5eCSMcN2ic1loMVMxNTV5YTA\/edit?usp=sharing",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU",
+    "date": "2014-01-25",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.eiupanthers.com\/custompages\/motrack\/2014\/jcraft_2014_results.htm",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU First Chance",
+    "date": "2014-02-01",
+    "host": "Illinois Wesleyan University",
+    "location": "Illinois Wesleyan",
+    "resultURL": "http:\/\/www.tfrrs.org\/results\/31830_m.html",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2014-02-01",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/www.runnerspace.com\/eprofile.php?event_id=1402&do=news&news_id=214654",
+    "splitURL": "",
+    "notes": "The 2014 IWU First Chance meet is a mistake.  This is the correct IWU February 1st meet. Unfortunately, I won't be able to edit it until I get around to adding functionality for editing meets."
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "SPIRE Midwest Indoor Track and Field Open",
+    "date": "2014-02-01",
+    "host": "SPIRE",
+    "location": "Geneva, OH",
+    "resultURL": "http:\/\/lightningtiming.com\/results\/20140131\/Results.htm",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "GVSU Holiday Open Results",
+    "date": "2013-12-13",
+    "host": "Davenport University",
+    "location": "Davenport",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Boston University Mini Meet",
+    "date": "2013-12-28",
+    "host": "Boston University",
+    "location": "Boston",
+    "resultURL": "http:\/\/goholycross.com\/sports\/w-track\/2013-14\/releases\/20131228bq1dyd",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IC Jim Green Invitational",
+    "date": "2014-02-08",
+    "host": "Illinois College",
+    "location": "Jacksonville, IL",
+    "resultURL": "http:\/\/www.illinoiscollegeathletics.com\/documents\/2014\/2\/8\/Results.htm",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "GVSU Big Meet",
+    "date": "2014-02-14",
+    "host": "Grand Valley State University",
+    "location": "Allendale, Michigan",
+    "resultURL": "http:\/\/www.gvsulakers.com\/sports\/c-track\/stats\/2013-2014\/completebigmeetresults.html",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "GVSU Tune Up",
+    "date": "2014-02-21",
+    "host": "GVSU",
+    "location": "Allendale, Michigan",
+    "resultURL": "http:\/\/www.gvsulakers.com\/livestats\/c-track\/index.htm",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Friday Night Special",
+    "date": "2014-02-21",
+    "host": "EIU",
+    "location": "",
+    "resultURL": "",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "UIUC Orange and Blue",
+    "date": "2014-02-22",
+    "host": "UIUC",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/grfx.cstv.com\/photos\/schools\/ill\/sports\/m-xctrack\/auto_pdf\/2013-14\/misc_non_event\/14OandBResults.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2014-03-01",
+    "host": "UIUC",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2014\/03\/2014ClubRelaysResults.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Rose-Hulman Early Bird",
+    "date": "2014-03-22",
+    "host": "Rose-Hulman Institute of Technology",
+    "location": "Terre Haute, IN",
+    "resultURL": "http:\/\/www.rose-hulman.edu\/media\/1350698\/earlybird.htm",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invitational",
+    "date": "2014-03-28",
+    "host": "Washington University",
+    "location": "St. Louis, MO",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/2014WUInvite-Final.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NIRCA Nationals",
+    "date": "2014-04-05",
+    "host": "NIRCA",
+    "location": "Bloomington IN",
+    "resultURL": "http:\/\/www.iuhoosiers.com\/livestats\/c-track\/NIRCANationals14\/",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Benedictine Eagle Invitational",
+    "date": "2014-04-12",
+    "host": "Benedictine",
+    "location": "Lisle, IL",
+    "resultURL": "http:\/\/www.directathletics.com\/results\/track\/35215.html",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Illinois Twilight",
+    "date": "2014-04-12",
+    "host": "UIUC",
+    "location": "Urbana, Illinois",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/14TRKTwilightRes.pdf",
+    "splitURL": "",
+    "notes": "Our runners ran unattached."
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Millikin Big Blue",
+    "date": "2014-04-19",
+    "host": "Millikin University",
+    "location": "Decatur, Illinois",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Hillsdale Gina Relays",
+    "date": "2014-04-25",
+    "host": "Hillsdale College",
+    "location": "Hillsdale, MI",
+    "resultURL": "http:\/\/www.hillsdalechargers.com\/sports\/mtrack\/2013-14\/2014ginarelays",
+    "splitURL": "",
+    "notes": "Only the distance team ran here."
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "IC True Blue Open",
+    "date": "2014-04-26",
+    "host": "Illinois College",
+    "location": "Jacksonville, IL",
+    "resultURL": "http:\/\/www.illinoiscollegeathletics.com\/documents\/2014\/4\/26\/Results.htm",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Redbird Invitational",
+    "date": "2014-05-03",
+    "host": "Illinois State University",
+    "location": "Normal, IL",
+    "resultURL": "http:\/\/grfx.cstv.com\/photos\/schools\/ilsu\/sports\/c-track\/auto_pdf\/2013-14\/misc_non_event\/redbirdresults.pdf",
+    "splitURL": "",
+    "notes": "Our runners ran unattached."
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Great Plains Regional",
+    "date": "2013-11-02",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/?attachment_id=1800",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Challenge",
+    "date": "2014-08-29",
+    "host": "University of Illinois",
+    "location": "Champaign, IL ",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2014\/09\/Illini-Challenge-2014.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2014\/09\/Illini-Challenge-splits-Sheet1.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Dr. Keeler",
+    "date": "2014-05-08",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/keeler_final_results_2014.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "EIU Walt Crawford Open",
+    "date": "2014-09-05",
+    "host": "EIU",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2014\/10\/EIU-2014-Results.pdf",
+    "splitURL": "https:\/\/docs.google.com\/spreadsheets\/d\/1dBXvQKMqgbCyyhX0MjrtWkcyJ_NHVl3pQzBAJOqnGpg\/edit?usp=sharing",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Augustana Brissman-Lundeen Invitational",
+    "date": "2014-09-26",
+    "host": "Augustana University",
+    "location": "Rock Island, Illinois",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/?attachment_id=1900 ",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "UW-Parkside Lucian Rosa Invitational",
+    "date": "2014-10-11",
+    "host": "UW-Parkside",
+    "location": "Parkside, WI ",
+    "resultURL": " http:\/\/www.illinoistrackclub.com\/?attachment_id=1901",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "SIU-E John Flamer Invite",
+    "date": "2014-10-04",
+    "host": "Southern Illinois University-Edwardsville",
+    "location": "Edwardsville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/?attachment_id=1933",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Great Plains Regionals",
+    "date": "2014-11-01",
+    "host": "University of Illinois",
+    "location": "Urbana, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/?attachment_id=1934 ",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "GVSU Early Bird",
+    "date": "2014-12-05",
+    "host": "Grand Valley State University",
+    "location": "Allendale, MI",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/01\/GVSU-Early-Bird.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU First Chance Meet",
+    "date": "2014-12-06",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/01\/IWU-First-Chance-Meet-2014.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illini Classic",
+    "date": "2015-01-17",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2010\/12\/IlliniClassicResults2015.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU John Craft Invite",
+    "date": "2015-01-24",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, Illinois",
+    "resultURL": "http:\/\/eiupanthers.com\/custompages\/motrack\/2015\/15mw_indoor_craft-invite_124.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Gregory Final Qualifier",
+    "date": "2014-05-15",
+    "host": "North Central College",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/gregory_final_combined_2014.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Nationals",
+    "date": "2014-11-15",
+    "host": "Michigan St. University",
+    "location": "East Lansing, MI",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/01\/NIRCA-Nats-2014-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2015-01-31",
+    "host": "Illinois Wesleyan",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2010\/12\/IWU-Titan-Open-Results.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/IWU-splits.xlsx",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois College Dr. Jim Green",
+    "date": "2015-02-07",
+    "host": "Illinois College",
+    "location": "Jacksonville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2010\/12\/icjimgreen_2015.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/ICjimgreen_splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "ONU Invite",
+    "date": "2015-02-07",
+    "host": "Olivet Nazarene University",
+    "location": "Bourbonnais, IL",
+    "resultURL": "",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "GVSU Big Meet",
+    "date": "2015-02-14",
+    "host": "Grand Valley State",
+    "location": "Allendale, MI",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Indiana Wesleyan Midwest Classic",
+    "date": "2015-02-14",
+    "host": "Indiana Wesleyan",
+    "location": "Marion, IN",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/2015-02-14-midwest-classic.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU Friday Night Special",
+    "date": "2015-02-20",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2010\/12\/15mw_indoor_friday-night_220.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Olivet Last Chance Qualifier",
+    "date": "2015-02-21",
+    "host": "Olivet Nazarene University",
+    "location": "Bourbonnais",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2010\/12\/Olivet-Last-Chance-Qualifier-2015.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/ONU-Splits.xlsx",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Orange & Blue",
+    "date": "2015-02-21",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2010\/12\/stats_20150222aaa.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2015-02-28",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2010\/12\/2015ClubRelaysResults.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/Club-Relays-2015.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Rose Hulman Early Bird",
+    "date": "2015-03-22",
+    "host": "Rose Hulman",
+    "location": "Terra Haute, IN",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/Rose-Hulman-meet-results-2015.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invite",
+    "date": "2015-03-28",
+    "host": "Washington University",
+    "location": "St. Louis, MO",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/15WashUInvite3-28.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/Wash-U-Splits-2015.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Knox College Outdoor Open",
+    "date": "2015-03-29",
+    "host": "Knox College",
+    "location": "Galesburg, IL",
+    "resultURL": "http:\/\/www.tfrrs.org\/results\/39029_m.html",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "EIU Big Blue Classic",
+    "date": "2015-04-03",
+    "host": "Eastern Illinois University",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/04\/EIU-Big-Blue-Classic-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NIRCA Track Nationals",
+    "date": "2015-04-11",
+    "host": "Indiana University",
+    "location": "Bloomington, IN",
+    "resultURL": "http:\/\/www.clubrunning.org\/championships\/spring15\/",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/04\/NIRCA-Nats-2015-track.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Illinois Twilight",
+    "date": "2015-04-18",
+    "host": "University of Illinois",
+    "location": "Champaign, IL",
+    "resultURL": "http:\/\/www.fightingillini.com\/sports\/m-xctrack\/stats\/2014-2015\/results.html",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "IC True Blue Open",
+    "date": "2015-04-25",
+    "host": "Illinois College",
+    "location": "Jacksonville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/04\/2015_True_Blue_Open_Results.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/04\/IC-true-blue-2015-splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Purdue Rankin Invite",
+    "date": "2015-05-01",
+    "host": "Purdue University",
+    "location": "West Lafayette, IN",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/stats_20150502aaa.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/Purdue-Rankin-Invite.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NC Dr. Keeler Invitational",
+    "date": "2015-05-07",
+    "host": "North Central",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/North-Central-Dr.-Keeler-2015.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/North-Central-Dr.-Keeler-2015-Splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NIU Huskie Open",
+    "date": "2015-05-09",
+    "host": "Northern Illinois University",
+    "location": "Dekalb, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/NIU-Huskie-Open.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/NIU-Huskie-Open-2015-splits.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "EIU John Craft Invite",
+    "date": "2016-01-23",
+    "host": "Eastern Illinois University",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/01\/John-Craft-Invite-2016.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/01\/EIU_JohnCraft_2016_Splits-Sheet1.pdf",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "EIU Walt Crawford Open",
+    "date": "2015-09-04",
+    "host": "EIU",
+    "location": "Charleston, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/09\/EIU-2015.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Augustana Brissman-Lundeen Invitational",
+    "date": "2015-09-26",
+    "host": "Augustana",
+    "location": "Rock Island, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/10\/Augustana-2015-results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "UW-Parkside Lucian Rosa Invitational",
+    "date": "2015-10-10",
+    "host": "UW-Parkside",
+    "location": "Kenosha, WI",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/10\/UW-Parkside-Results-2015.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Great Plains Regionals",
+    "date": "2015-10-31",
+    "host": "University of Illinois",
+    "location": "U of I Arboretum",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/11\/NIRCA-Regional-Great-Plains-2015.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "Illini Open",
+    "date": "2015-10-23",
+    "host": "University of Illinois",
+    "location": "U of I Arboretum",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/11\/Illini_Open_Results-2015.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU First Chance Invite",
+    "date": "2015-12-05",
+    "host": "Illinois Wesleyan University",
+    "location": "Bloomington, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/12\/iwu-titan-first-chance-results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NCC Gregory",
+    "date": "2015-05-14",
+    "host": "North Central",
+    "location": "Naperville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/01\/NCC-Gregory-2015.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "xc",
+    "name": "NIRCA Nationals",
+    "date": "2015-11-14",
+    "host": "University of Kentucky",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/01\/IXC-Nats-2015-Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "IWU Titan Open",
+    "date": "2016-01-30",
+    "host": "Illinois Wesleyan",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/02\/IWU-titan-open-results-2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "SPIRE Midwest Indoor Open",
+    "date": "2016-01-30",
+    "host": "SPIRE",
+    "location": "Geneva, OH",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/02\/spire2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois College Dr. Jim Green Invite",
+    "date": "2016-02-06",
+    "host": "Illinois College",
+    "location": "Jacksonville, IL",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/03\/ACTUALjimgreeninviteresults2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "GVSU Big Meet",
+    "date": "2016-02-13",
+    "host": "GVSU",
+    "location": "Allendale, MI",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/02\/GVSU-meet-results-2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Taylor University Invitational",
+    "date": "2016-02-13",
+    "host": "Taylor University",
+    "location": "Upland, IN",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/02\/TaylorInvitational2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Olivet Nazarene Qualifier",
+    "date": "2016-02-20",
+    "host": "Olivet Nazarene",
+    "location": "Bourbonnais, Il",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/02\/2016-ONU-Qualifier-results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Orange and Blue Open",
+    "date": "2016-02-20",
+    "host": "University of Illinois Urbana-Champaign",
+    "location": "Champaign, Il",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/02\/OrangeAndBlue2016Results.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illinois Club Relays",
+    "date": "2016-02-27",
+    "host": "University of Illinois",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/03\/CLUB-RELAYS-2016-try2.pdf",
+    "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/03\/2016_ITC_RELAYS_SPLITS.xlsx",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Washington University Invitational",
+    "date": "2016-04-01",
+    "host": "Washington University",
+    "location": "St. Louis",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/04\/WASHU2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "NIRCA Track Nationals",
+    "date": "2016-04-08",
+    "host": "Indiana University",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/04\/2016-NIRCA-Nationals1.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Benedictine Eagle Invite",
+    "date": "2016-04-16",
+    "host": "Benedictine University",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/04\/2016-Benedeictine-Relays.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Illinois Twilight",
+    "date": "2016-04-23",
+    "host": "University of Illinois",
+    "location": "Champaign",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/04\/2016-Illinois-Twilight.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Valparaiso Crusader Open",
+    "date": "2016-04-30",
+    "host": "Valparaiso University",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/05\/2016-Valparaiso-Crusader-Open.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Indoor",
+    "name": "Illini Classic",
+    "date": "2016-01-16",
+    "host": "University Of Illinois",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/05\/2016_Illini_Classic_Results_1_.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "Purdue Rankin\/Poehlein Invitational",
+    "date": "2016-05-07",
+    "host": "Purdue University",
+    "location": "West Lafayette, IN",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/05\/PurdueRankinResults2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+},
+{
+    "model": "app.meet",
+    "fields": {
+    "season": "Outdoor",
+    "name": "North Central Dr. Keeler",
+    "date": "2016-05-12",
+    "host": "North Central",
+    "location": "",
+    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/05\/NCDrKeeler2016.pdf",
+    "splitURL": "",
+    "notes": ""
+    }
+}]
