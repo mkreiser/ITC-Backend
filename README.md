@@ -34,3 +34,6 @@ Hosted at `http://mighty-lowlands-90976.herokuapp.com/`
 
 ### View server logs
     heroku logs
+
+## Backup server data
+    python manage.py dumpdata --exclude=corsheaders > data.json
