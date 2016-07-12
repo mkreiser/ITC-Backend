@@ -71,7 +71,7 @@ class Result (models.Model):
   distanceResult = models.BooleanField(default = False)
   event = models.ForeignKey(Event, on_delete = models.DO_NOTHING)
   meet = models.ForeignKey(Meet, on_delete = models.DO_NOTHING)
-  result = models.FloatField(null = False)
+  performance = models.FloatField(null = False)
   result_membership = models.CharField(max_length = 6, choices = ModelEnums.MEMBERSHIP_OPTIONS, default = ModelEnums.CLUB)
 
   def __str__(self):
