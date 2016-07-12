@@ -1,6 +1,6 @@
 [
-{
-    "model": "app.meet",
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invite",
@@ -11,9 +11,9 @@
     "splitURL": "",
     "notes": "Sunny, great day!"
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Walt Crawford Open",
@@ -24,9 +24,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Rose-Hulman Early Bird",
@@ -37,9 +37,9 @@
     "splitURL": "",
     "notes": "Only steeple and 1 guy in the 1500. Awesome weather, 60's and sunny."
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Miami Invitational",
@@ -50,9 +50,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Benedictine Eagle Invite",
@@ -63,9 +63,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Wheaton College Twilight",
@@ -76,9 +76,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Millikin Big Blue Invitational",
@@ -89,9 +89,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCTFA Nationals",
@@ -102,9 +102,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Dr. Keeler T&F Meet",
@@ -115,9 +115,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Wisconsin Open",
@@ -128,9 +128,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Challenge",
@@ -141,9 +141,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
@@ -154,9 +154,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-LoyolaSeanEarlLakefrontInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "IWU Titan Invite",
@@ -167,9 +167,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-IWUTitanInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Jim Drews \/ Tori Neubauer Invite",
@@ -180,9 +180,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2011-XC\/2011-JimDrewsToriNeubauerInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Great Plains Regional",
@@ -193,9 +193,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Nationals",
@@ -206,9 +206,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Challenge",
@@ -219,9 +219,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-IlliniChallenge-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Midwest Regional",
@@ -232,9 +232,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Nationals",
@@ -245,9 +245,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Gibson Family Invite",
@@ -258,9 +258,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
@@ -271,9 +271,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-LoyolaSeanEarlLakefrontInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Panther Open",
@@ -284,9 +284,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-EIUPantherOpen-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Challenge",
@@ -297,9 +297,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2009-XC\/2009-IlliniChallenge-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Nationals",
@@ -310,9 +310,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Open",
@@ -323,9 +323,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Regionals",
@@ -336,9 +336,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
@@ -349,9 +349,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illinois Intercollegiate Championships",
@@ -362,9 +362,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Panther Open",
@@ -375,9 +375,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Challenge",
@@ -388,9 +388,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Panther Open",
@@ -401,9 +401,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-EIUPantherOpen-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
@@ -414,9 +414,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Gibson Family Invite",
@@ -427,9 +427,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-XC\/2010-GibsonFamilyInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Midwest Regional",
@@ -440,9 +440,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Nationals",
@@ -453,9 +453,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Mega Meet",
@@ -466,9 +466,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-EIUMegaMeet-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -479,9 +479,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IWUTitanOpen-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -492,9 +492,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IllinoisClubRelays-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Friday Night Special",
@@ -505,9 +505,9 @@
     "splitURL": "\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-EIUFridayNightSpecial-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Rose-Hulman Early Bird",
@@ -518,9 +518,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invite",
@@ -531,9 +531,9 @@
     "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-WashingtonUniversityInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Benedictine Eagle Invite",
@@ -544,9 +544,9 @@
     "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-BenedictineEagleInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Gina Relays",
@@ -557,9 +557,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Loras Invitational",
@@ -570,9 +570,9 @@
     "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-LorasInvitational-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Illini Twilight",
@@ -583,9 +583,9 @@
     "splitURL": "http:\/\/\/illinoistrackclub.com\/results\/files\/2010-Track\/2010-IlliniTwilight-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Dr. Keeler T&F Meet",
@@ -596,9 +596,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Mega Meet",
@@ -609,9 +609,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-EIUMegaMeet-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -622,9 +622,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-IWUTitanOpen-Results and Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -635,9 +635,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-IllinoisClubRelays-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Friday Night Special",
@@ -648,9 +648,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-EIUFridayNight-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Rose-Hulman Early Bird",
@@ -661,9 +661,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invite",
@@ -674,9 +674,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-WashingtonUniversityInvite-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "WIU Lee Calhoun Memorial Invite",
@@ -687,9 +687,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCTFA National Championship",
@@ -700,9 +700,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-NCTFANationalChampionship-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Gina Relays",
@@ -713,9 +713,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "True Blue Open",
@@ -726,9 +726,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Dr. Keeler T&F Meet",
@@ -739,9 +739,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU First Chance",
@@ -752,9 +752,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illini Open",
@@ -765,9 +765,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU John Craft Invite",
@@ -778,9 +778,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-EIUMegaMeet-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -791,9 +791,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Bob Keck Invite",
@@ -804,9 +804,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Orange & Blue Open",
@@ -817,9 +817,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Friday Night Special",
@@ -830,9 +830,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/results\/files\/2012-Track\/2012-EIUFridayNightSpecial-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Kent State Tune-Up",
@@ -843,9 +843,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -856,9 +856,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "USATF Masters Indoor Championships",
@@ -869,9 +869,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Mega Meet",
@@ -882,9 +882,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -895,9 +895,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -908,9 +908,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Friday Night Special",
@@ -921,9 +921,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Viking Classic",
@@ -934,9 +934,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invite",
@@ -947,9 +947,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Dick Young Classic",
@@ -960,9 +960,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Loras Open",
@@ -973,9 +973,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Illini Open",
@@ -986,9 +986,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Dr. Keeler T&F Meet",
@@ -999,9 +999,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Challenge",
@@ -1012,9 +1012,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-IlliniChallenge-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Loyola Sean Earl Lakefront Invite",
@@ -1025,9 +1025,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-LoyolaSeanEarl-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "IWU Titan Invite",
@@ -1038,9 +1038,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-IWU-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Walt Crawford Open",
@@ -1051,9 +1051,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Great Plains Regional",
@@ -1064,9 +1064,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-Regionals-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Nationals",
@@ -1077,9 +1077,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Friday Night Special",
@@ -1090,9 +1090,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-EIUFridayNight-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -1103,9 +1103,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU John Craft Invite",
@@ -1116,9 +1116,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -1129,9 +1129,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-IWUTitanOpen-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -1142,9 +1142,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2013-Track\/2013-IllinoisClubRelays-Splits.pdf",
     "notes": "Wooo"
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "SIUE Twilight Invitational",
@@ -1155,9 +1155,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2011-Track\/2011-SIUE-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Bradley Classic",
@@ -1168,9 +1168,9 @@
     "splitURL": "http:\/\/illinoistrackclub.com\/results\/files\/2012-XC\/2012-Bradley-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invite",
@@ -1181,9 +1181,9 @@
     "splitURL": "",
     "notes": "Great weather Friday Night 50-60 and clear. 50's and overcast on Saturday, rainy in the afternoon \/ evening."
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Rose-Hulman Early Bird",
@@ -1194,9 +1194,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NIRCA Track Nationals",
@@ -1207,9 +1207,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Benedictine Eagle Invite",
@@ -1220,9 +1220,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Hillsdale College Gina Relays",
@@ -1233,9 +1233,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Illinois College True Blue Open",
@@ -1246,9 +1246,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Dr. Keeler T&F Meet",
@@ -1259,9 +1259,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Gregory Final Qualifier",
@@ -1272,9 +1272,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Kent State Golden Flash Gala",
@@ -1285,9 +1285,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Challenge",
@@ -1298,9 +1298,9 @@
     "splitURL": "https:\/\/docs.google.com\/spreadsheet\/ccc?key=0AtIcLT5q5sCFdDUtLTJwOEw2Zzg1T3Q5eDAyYXM3dXc&usp=sharing",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Walt Crawford Open",
@@ -1311,9 +1311,9 @@
     "splitURL": "https:\/\/docs.google.com\/a\/illinois.edu\/spreadsheet\/ccc?key=0AtIcLT5q5sCFdG9wMC1tUVZoSWdDMWZRVkhwUW9LS0E#gid=0",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Brissman-Lundeen Invitational",
@@ -1324,9 +1324,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "IWU Titan Invite",
@@ -1337,9 +1337,9 @@
     "splitURL": "https:\/\/docs.google.com\/a\/illinois.edu\/spreadsheet\/ccc?key=0AtIcLT5q5sCFdENmeERDWWpobXQ0VkVqYkJ5ZzI3UlE&usp=docslist_api#gid=0",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Lucian Rosa Invitational",
@@ -1350,9 +1350,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU",
@@ -1363,9 +1363,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU First Chance",
@@ -1376,9 +1376,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -1389,9 +1389,9 @@
     "splitURL": "",
     "notes": "The 2014 IWU First Chance meet is a mistake.  This is the correct IWU February 1st meet. Unfortunately, I won't be able to edit it until I get around to adding functionality for editing meets."
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "SPIRE Midwest Indoor Track and Field Open",
@@ -1404,8 +1404,9 @@
     }
 },
 {
-    "model": "app.meet",
-    "fields": {
+  "model": "app.Meet",
+"fields":
+    {
     "season": "Indoor",
     "name": "GVSU Holiday Open Results",
     "date": "2013-12-13",
@@ -1414,9 +1415,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Boston University Mini Meet",
@@ -1427,9 +1428,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IC Jim Green Invitational",
@@ -1440,9 +1441,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "GVSU Big Meet",
@@ -1453,9 +1454,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "GVSU Tune Up",
@@ -1466,9 +1467,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Friday Night Special",
@@ -1479,9 +1480,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "UIUC Orange and Blue",
@@ -1492,9 +1493,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -1505,9 +1506,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Rose-Hulman Early Bird",
@@ -1518,9 +1519,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invitational",
@@ -1531,9 +1532,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NIRCA Nationals",
@@ -1544,9 +1545,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Benedictine Eagle Invitational",
@@ -1557,9 +1558,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Illinois Twilight",
@@ -1572,8 +1573,9 @@
     }
 },
 {
-    "model": "app.meet",
-    "fields": {
+  "model": "app.Meet",
+"fields":
+    {
     "season": "Outdoor",
     "name": "Millikin Big Blue",
     "date": "2014-04-19",
@@ -1582,9 +1584,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Hillsdale Gina Relays",
@@ -1595,9 +1597,9 @@
     "splitURL": "",
     "notes": "Only the distance team ran here."
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "IC True Blue Open",
@@ -1608,9 +1610,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Redbird Invitational",
@@ -1621,9 +1623,9 @@
     "splitURL": "",
     "notes": "Our runners ran unattached."
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Great Plains Regional",
@@ -1634,9 +1636,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Challenge",
@@ -1647,9 +1649,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2014\/09\/Illini-Challenge-splits-Sheet1.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Dr. Keeler",
@@ -1660,9 +1662,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Walt Crawford Open",
@@ -1673,9 +1675,9 @@
     "splitURL": "https:\/\/docs.google.com\/spreadsheets\/d\/1dBXvQKMqgbCyyhX0MjrtWkcyJ_NHVl3pQzBAJOqnGpg\/edit?usp=sharing",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Augustana Brissman-Lundeen Invitational",
@@ -1686,9 +1688,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "UW-Parkside Lucian Rosa Invitational",
@@ -1699,9 +1701,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "SIU-E John Flamer Invite",
@@ -1712,9 +1714,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Great Plains Regionals",
@@ -1725,9 +1727,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "GVSU Early Bird",
@@ -1738,9 +1740,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU First Chance Meet",
@@ -1751,9 +1753,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illini Classic",
@@ -1764,9 +1766,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU John Craft Invite",
@@ -1777,9 +1779,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Gregory Final Qualifier",
@@ -1790,9 +1792,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Nationals",
@@ -1803,9 +1805,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -1816,9 +1818,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/IWU-splits.xlsx",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois College Dr. Jim Green",
@@ -1829,9 +1831,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/ICjimgreen_splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "ONU Invite",
@@ -1842,10 +1844,10 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
-    "fields": {
+},{
+  "model": "app.Meet",
+ "fields":
+    {
     "season": "Indoor",
     "name": "GVSU Big Meet",
     "date": "2015-02-14",
@@ -1854,9 +1856,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Indiana Wesleyan Midwest Classic",
@@ -1867,9 +1869,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU Friday Night Special",
@@ -1880,9 +1882,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Olivet Last Chance Qualifier",
@@ -1893,9 +1895,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/02\/ONU-Splits.xlsx",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Orange & Blue",
@@ -1906,9 +1908,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -1919,9 +1921,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/Club-Relays-2015.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Rose Hulman Early Bird",
@@ -1932,9 +1934,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invite",
@@ -1945,9 +1947,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/03\/Wash-U-Splits-2015.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Knox College Outdoor Open",
@@ -1958,9 +1960,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "EIU Big Blue Classic",
@@ -1971,9 +1973,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NIRCA Track Nationals",
@@ -1984,9 +1986,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/04\/NIRCA-Nats-2015-track.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Illinois Twilight",
@@ -1997,9 +1999,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "IC True Blue Open",
@@ -2010,9 +2012,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/04\/IC-true-blue-2015-splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Purdue Rankin Invite",
@@ -2023,9 +2025,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/Purdue-Rankin-Invite.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NC Dr. Keeler Invitational",
@@ -2036,9 +2038,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/North-Central-Dr.-Keeler-2015-Splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NIU Huskie Open",
@@ -2049,9 +2051,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2015\/05\/NIU-Huskie-Open-2015-splits.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "EIU John Craft Invite",
@@ -2062,9 +2064,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/01\/EIU_JohnCraft_2016_Splits-Sheet1.pdf",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "EIU Walt Crawford Open",
@@ -2075,9 +2077,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Augustana Brissman-Lundeen Invitational",
@@ -2088,9 +2090,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "UW-Parkside Lucian Rosa Invitational",
@@ -2101,9 +2103,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Great Plains Regionals",
@@ -2114,9 +2116,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "Illini Open",
@@ -2127,9 +2129,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU First Chance Invite",
@@ -2140,9 +2142,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NCC Gregory",
@@ -2153,9 +2155,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "XC",
     "name": "NIRCA Nationals",
@@ -2166,9 +2168,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "IWU Titan Open",
@@ -2179,9 +2181,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "SPIRE Midwest Indoor Open",
@@ -2192,9 +2194,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois College Dr. Jim Green Invite",
@@ -2205,9 +2207,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "GVSU Big Meet",
@@ -2218,9 +2220,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Taylor University Invitational",
@@ -2231,9 +2233,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Olivet Nazarene Qualifier",
@@ -2244,9 +2246,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Orange and Blue Open",
@@ -2257,9 +2259,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illinois Club Relays",
@@ -2270,9 +2272,9 @@
     "splitURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/03\/2016_ITC_RELAYS_SPLITS.xlsx",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Washington University Invitational",
@@ -2283,9 +2285,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "NIRCA Track Nationals",
@@ -2296,9 +2298,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Benedictine Eagle Invite",
@@ -2309,9 +2311,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Illinois Twilight",
@@ -2322,9 +2324,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Valparaiso Crusader Open",
@@ -2335,9 +2337,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Indoor",
     "name": "Illini Classic",
@@ -2348,9 +2350,9 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+    "model": "app.Meet",
     "fields": {
     "season": "Outdoor",
     "name": "Purdue Rankin\/Poehlein Invitational",
@@ -2361,17 +2363,18 @@
     "splitURL": "",
     "notes": ""
     }
-},
-{
-    "model": "app.meet",
+    },
+ {
+
+    "model": "app.Meet",
     "fields": {
-    "season": "Outdoor",
-    "name": "North Central Dr. Keeler",
-    "date": "2016-05-12",
-    "host": "North Central",
-    "location": "",
-    "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/05\/NCDrKeeler2016.pdf",
-    "splitURL": "",
-    "notes": ""
+        "season": "Outdoor",
+        "name": "North Central Dr. Keeler",
+        "date": "2016-05-12",
+        "host": "North Central",
+        "location": "",
+        "resultURL": "http:\/\/www.illinoistrackclub.com\/wp-content\/uploads\/2016\/05\/NCDrKeeler2016.pdf",
+        "splitURL": "",
+        "notes": ""
     }
 }]
