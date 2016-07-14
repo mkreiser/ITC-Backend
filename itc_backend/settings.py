@@ -119,7 +119,7 @@ DATABASES['default'].update(db_from_env)
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:9000',
-    'illinoistrackclub.com'
+    'illinoistrackclub.com',
     'mikekreiser.me'
 )
 
