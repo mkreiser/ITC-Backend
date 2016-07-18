@@ -10,41 +10,41 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from app.models import Athlete, Event, Meet, Result
-from app.serializers import AthleteSerializer, EventSerializer, EventWithResultsSerializer, MeetSerializer, ResultSerializer
+from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer
 
 import django_filters
 
 # Root page directory
 @api_view(('GET',))
 def api_root(request, format=None):
-    return Response({
-      "GET ALL Athletes": "http://illinoistrackclub.herokuapp.com/athletes/",
-      "GET Athlete": "http://illinoistrackclub.herokuapp.com/athletes/getAthlete/[id]/",
-      "POST Athlete": "http://illinoistrackclub.herokuapp.com/athletes/newAthlete/",
-      "PUT Athlete": "http://illinoistrackclub.herokuapp.com/athletes/updateAthlete/[id]/",
-      "DELETE Athlete": "http://illinoistrackclub.herokuapp.com/athletes/deleteAthlete/[id]/",
+    return Response({ "routes": [
+      "GET ALL Athletes: http://illinoistrackclub.herokuapp.com/athletes/",
+      "GET Athlete: http://illinoistrackclub.herokuapp.com/athletes/getAthlete/[id]/",
+      "POST Athlete: http://illinoistrackclub.herokuapp.com/athletes/newAthlete/",
+      "PUT Athlete: http://illinoistrackclub.herokuapp.com/athletes/updateAthlete/[id]/",
+      "DELETE Athlete: http://illinoistrackclub.herokuapp.com/athletes/deleteAthlete/[id]/",
 
-      "GET ALL Events": "http://illinoistrackclub.herokuapp.com/events/",
-      "GET Event": "http://illinoistrackclub.herokuapp.com/events/getEvent/[id]/",
-      "POST Event": "http://illinoistrackclub.herokuapp.com/events/newEvent/",
-      "PUT Event": "http://illinoistrackclub.herokuapp.com/events/updateEvent/[id]/",
-      "DELETE Event": "http://illinoistrackclub.herokuapp.com/events/deleteEvent/[id]/",
+      "GET ALL Events: http://illinoistrackclub.herokuapp.com/events/",
+      "GET Event: http://illinoistrackclub.herokuapp.com/events/getEvent/[id]/",
+      "POST Event: http://illinoistrackclub.herokuapp.com/events/newEvent/",
+      "PUT Event: http://illinoistrackclub.herokuapp.com/events/updateEvent/[id]/",
+      "DELETE Event: http://illinoistrackclub.herokuapp.com/events/deleteEvent/[id]/",
 
-      "GET ALL Top 10 Performances": "http://illinoistrackclub.herokuapp.com/events/getTopPerformances",
-      "GET Event Top 10 Performances": "http://illinoistrackclub.herokuapp.com/events/getTopPerformances/[event_id]/",
+      "GET ALL Top 10 Performances: http://illinoistrackclub.herokuapp.com/events/getTopPerformances",
+      "GET Event Top 10 Performances: http://illinoistrackclub.herokuapp.com/events/getTopPerformances/[event_id]/",
 
-      "GET ALL Meets": "http://illinoistrackclub.herokuapp.com/meets/",
-      "GET Meet": "http://illinoistrackclub.herokuapp.com/meets/getMeet/[id]/",
-      "POST Meet": "http://illinoistrackclub.herokuapp.com/meets/newMeet/",
-      "PUT Meet": "http://illinoistrackclub.herokuapp.com/meets/updateMeet/[id]/",
-      "DELETE Meet": "http://illinoistrackclub.herokuapp.com/meets/deleteMeet/[id]/",
+      "GET ALL Meets: http://illinoistrackclub.herokuapp.com/meets/",
+      "GET Meet: http://illinoistrackclub.herokuapp.com/meets/getMeet/[id]/",
+      "POST Meet: http://illinoistrackclub.herokuapp.com/meets/newMeet/",
+      "PUT Meet: http://illinoistrackclub.herokuapp.com/meets/updateMeet/[id]/",
+      "DELETE Meet: http://illinoistrackclub.herokuapp.com/meets/deleteMeet/[id]/",
 
-      "GET ALL Results": "http://illinoistrackclub.herokuapp.com/results/",
-      "GET Result": "http://illinoistrackclub.herokuapp.com/results/getResult/[id]/",
-      "POST Result": "http://illinoistrackclub.herokuapp.com/results/newResult/",
-      "PUT Result": "http://illinoistrackclub.herokuapp.com/results/updateResult/[id]/",
-      "DELETE Result": "http://illinoistrackclub.herokuapp.com/results/deleteResult/[id]/",
-    })
+      "GET ALL Results: http://illinoistrackclub.herokuapp.com/results/",
+      "GET Result: http://illinoistrackclub.herokuapp.com/results/getResult/[id]/",
+      "POST Result: http://illinoistrackclub.herokuapp.com/results/newResult/",
+      "PUT Result: http://illinoistrackclub.herokuapp.com/results/updateResult/[id]/",
+      "DELETE Result: http://illinoistrackclub.herokuapp.com/results/deleteResult/[id]/",
+    ]})
 
 # ATHLETE FILTERS
 class AthleteFilter(django_filters.FilterSet):

@@ -52,7 +52,7 @@ class Event (models.Model):
   season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
 
   def __str__(self):
-    return self.name
+    return self.name + '(' + self.season + ', ' + self.gender + ')'
 
 class Meet (models.Model):
   date = models.DateField()
@@ -65,7 +65,7 @@ class Meet (models.Model):
   splitURL = models.TextField(blank=True)
 
   def __str__(self):
-    return self.name
+    return self.name + ', ' + self.location + ', ' + self.date
 
 class Result (models.Model):
   athlete = models.ManyToManyField(Athlete)
@@ -76,5 +76,5 @@ class Result (models.Model):
   result_membership = models.CharField(max_length = 6, choices = ModelEnums.MEMBERSHIP_OPTIONS, default = ModelEnums.CLUB)
 
   def __str__(self):
-    return str(self.performance)
+    return str(self.athlete + ', ' + self.performance)
 
