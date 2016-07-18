@@ -45,6 +45,7 @@ class Athlete (models.Model):
     return self.name
 
 class Event (models.Model):
+  distanceEvent = models.BooleanField(default = False)
   gender = models.CharField(max_length = 10, choices = ModelEnums.EVENT_GENDER_OPTIONS, default = ModelEnums.BOTH)
   name = models.CharField(max_length = 50)
   relay = models.BooleanField(default = False)
@@ -75,5 +76,5 @@ class Result (models.Model):
   result_membership = models.CharField(max_length = 6, choices = ModelEnums.MEMBERSHIP_OPTIONS, default = ModelEnums.CLUB)
 
   def __str__(self):
-    return self.result
+    return str(self.performance)
 

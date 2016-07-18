@@ -10,7 +10,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from app.models import Athlete, Event, Meet, Result
-from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer
+from app.serializers import AthleteSerializer, EventSerializer, EventWithResultsSerializer, MeetSerializer, ResultSerializer
 
 import django_filters
 
@@ -29,6 +29,9 @@ def api_root(request, format=None):
       "POST Event": "http://illinoistrackclub.herokuapp.com/events/newEvent/",
       "PUT Event": "http://illinoistrackclub.herokuapp.com/events/updateEvent/[id]/",
       "DELETE Event": "http://illinoistrackclub.herokuapp.com/events/deleteEvent/[id]/",
+
+      "GET ALL Top 10 Performances": "http://illinoistrackclub.herokuapp.com/events/getTopPerformances",
+      "GET Event Top 10 Performances": "http://illinoistrackclub.herokuapp.com/events/getTopPerformances/[event_id]/",
 
       "GET ALL Meets": "http://illinoistrackclub.herokuapp.com/meets/",
       "GET Meet": "http://illinoistrackclub.herokuapp.com/meets/getMeet/[id]/",
@@ -76,7 +79,7 @@ class AthleteDELETE(generics.DestroyAPIView):
 class EventFilter(django_filters.FilterSet):
   class Meta:
     model = Event
-    fields = ['gender', 'name', 'season', 'relay']
+    fields = ['gender', 'distanceEvent', 'name', 'season', 'relay']
 
 # EVENT SERIALIZERS
 class EventGETAll(generics.ListAPIView):
@@ -158,3 +161,45 @@ class ResultPUT(generics.RetrieveUpdateAPIView):
 class ResultDELETE(generics.DestroyAPIView):
   queryset = Result.objects.all()
   serializer_class = ResultSerializer
+
+
+def getTopPerformanceByGender(events, gender, isDistance):
+  performance = '-performance' if isDistance else 'performance'
+  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance)[:10]
+
+
+def getTopPerformances(pk):
+  event = Event.objects.get(pk=pk)
+
+  if (event.gender == 'Both'):
+    maleRecords = getTopPerformanceByGender(event.result_set.all(), 'Male', event.distanceEvent)
+    femaleRecords = getTopPerformanceByGender(event.result_set.all(), 'Female', event.distanceEvent)
+
+    maleRecords = ResultSerializer(maleRecords, many=True)
+    femaleRecords = ResultSerializer(femaleRecords, many=True)
+
+    return { "maleRecords": maleRecords.data, "femaleRecords": femaleRecords.data }
+  elif (event.gender == 'Male'):
+    maleRecords = getTopPerformanceByGender(event.result_set.all(), 'Male', event.distanceEvent)
+    maleRecords = ResultSerializer(maleRecords, many=True)
+
+    return { "maleRecords": maleRecords.data }
+  else:
+    femaleRecords = getTopPerformanceByGender(event.result_set.all(), 'Female', event.distanceEvent)
+    femaleRecords = ResultSerializer(femaleRecords, many=True)
+
+    return { "femaleRecords": femaleRecords.data }
+
+
+@api_view(['GET'])
+def GETEventTopPerformances(request):
+  data = []
+
+  for event in Event.objects.all():
+    data.append({ event.name: getTopPerformances(event.pk) })
+
+  return Response(data)
+
+@api_view(['GET'])
+def GETEventTopPerformance(request, pk):
+  return Response(getTopPerformances(pk))
