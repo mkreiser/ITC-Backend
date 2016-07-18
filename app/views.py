@@ -9,7 +9,7 @@ from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from app.models import Athlete, Event, Meet, Result
+from app.models import Athlete, Event, Meet, Result, ModelEnums
 from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer
 
 import django_filters
@@ -162,39 +162,10 @@ class ResultDELETE(generics.DestroyAPIView):
   queryset = Result.objects.all()
   serializer_class = ResultSerializer
 
-
-def getTopPerformanceByGender(events, gender, isDistance):
-  performance = '-performance' if isDistance else 'performance'
-  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance)[:10]
-
-
-def getTopPerformances(pk):
-  event = Event.objects.get(pk=pk)
-
-  if (event.gender == 'Both'):
-    maleRecords = getTopPerformanceByGender(event.result_set.all(), 'Male', event.distanceEvent)
-    femaleRecords = getTopPerformanceByGender(event.result_set.all(), 'Female', event.distanceEvent)
-
-    maleRecords = ResultSerializer(maleRecords, many=True)
-    femaleRecords = ResultSerializer(femaleRecords, many=True)
-
-    return { "maleRecords": maleRecords.data, "femaleRecords": femaleRecords.data }
-  elif (event.gender == 'Male'):
-    maleRecords = getTopPerformanceByGender(event.result_set.all(), 'Male', event.distanceEvent)
-    maleRecords = ResultSerializer(maleRecords, many=True)
-
-    return { "maleRecords": maleRecords.data }
-  else:
-    femaleRecords = getTopPerformanceByGender(event.result_set.all(), 'Female', event.distanceEvent)
-    femaleRecords = ResultSerializer(femaleRecords, many=True)
-
-    return { "femaleRecords": femaleRecords.data }
-
-
+# TOP PERFORMANCES
 @api_view(['GET'])
 def GETEventTopPerformances(request):
   data = []
-
   for event in Event.objects.all():
     data.append({ event.name: getTopPerformances(event.pk) })
 
@@ -203,3 +174,34 @@ def GETEventTopPerformances(request):
 @api_view(['GET'])
 def GETEventTopPerformance(request, pk):
   return Response(getTopPerformances(pk))
+
+
+# HELPER FUNCTIONS
+
+# TOP PERFORMANCE HELPERS
+def getTopPerformanceByGender(events, gender, isDistance):
+  performance = '-performance' if isDistance else 'performance'
+  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance)[:10]
+
+
+def getTopPerformances(pk):
+  event = Event.objects.get(pk=pk)
+
+  if (event.gender == ModelEnums.BOTH):
+    maleRecords = getTopPerformanceByGender(event.result_set.all(), ModelEnums.MALE, event.distanceEvent)
+    femaleRecords = getTopPerformanceByGender(event.result_set.all(), ModelEnums.FEMALE, event.distanceEvent)
+
+    maleRecords = ResultSerializer(maleRecords, many=True)
+    femaleRecords = ResultSerializer(femaleRecords, many=True)
+
+    return { "maleRecords": maleRecords.data, "femaleRecords": femaleRecords.data }
+  elif (event.gender == ModelEnums.MALE):
+    maleRecords = getTopPerformanceByGender(event.result_set.all(), ModelEnums.MALE, event.distanceEvent)
+    maleRecords = ResultSerializer(maleRecords, many=True)
+
+    return { "maleRecords": maleRecords.data }
+  else:
+    femaleRecords = getTopPerformanceByGender(event.result_set.all(), ModelEnums.FEMALE, event.distanceEvent)
+    femaleRecords = ResultSerializer(femaleRecords, many=True)
+
+    return { "femaleRecords": femaleRecords.data }
