@@ -165,9 +165,17 @@ class ResultDELETE(generics.DestroyAPIView):
 # TOP PERFORMANCES
 @api_view(['GET'])
 def GETEventTopPerformances(request):
-  data = []
-  for event in Event.objects.all():
-    data.append({ event.name: getTopPerformances(event.pk) })
+  data = {
+    "Indoor": [],
+    "Outdoor": [],
+    "XC": []
+  }
+
+  for event in Event.objects.all().order_by('season'):
+    data[event.season].append({
+      "name": event.name,
+      "performances": getTopPerformances(event.pk)
+    })
 
   return Response(data)
 
