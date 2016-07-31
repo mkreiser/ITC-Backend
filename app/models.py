@@ -78,3 +78,13 @@ class Result (models.Model):
   def __str__(self):
     return str(self.athlete + ', ' + str(self.performance))
 
+class News (models.Model):
+  author = models.CharField(max_length = 40)
+  post_subject = models.CharField(max_length = 100)
+  post_text = models.TextField()
+  post_datetime = models.DateTimeField()
+  post_season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
+
+
+  def __str__(self):
+    return str(self.author + ': ' + self.post_subject)

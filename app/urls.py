@@ -30,6 +30,12 @@ urlpatterns = [
   url(r'^results/newResult/$', views.ResultPOST.as_view()),
   url(r'^results/updateResult/(?P<pk>[0-9]+)/$', views.ResultPUT.as_view()),
   url(r'^results/deleteResult/(?P<pk>[0-9]+)/$', views.ResultDELETE.as_view()),
+
+  url(r'^news/$', views.NewsGETAll.as_view()),
+  url(r'^news/getNews/(?P<pk>[0-9]+)/$', views.NewsGET.as_view()),
+  url(r'^news/newNews/$', views.NewsPOST.as_view()),
+  url(r'^news/updateNews/(?P<pk>[0-9]+)/$', views.NewsPUT.as_view()),
+  url(r'^news/deleteNews/(?P<pk>[0-9]+)/$', views.NewsDELETE.as_view()),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

@@ -9,8 +9,8 @@ from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from app.models import Athlete, Event, Meet, Result, ModelEnums
-from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer
+from app.models import Athlete, Event, Meet, Result, News, ModelEnums
+from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer, NewsSerializer
 
 import django_filters
 
@@ -44,6 +44,12 @@ def api_root(request, format=None):
       "POST Result: http://illinoistrackclub.herokuapp.com/results/newResult/",
       "PUT Result: http://illinoistrackclub.herokuapp.com/results/updateResult/[id]/",
       "DELETE Result: http://illinoistrackclub.herokuapp.com/results/deleteResult/[id]/",
+
+      "GET ALL News: http://illinoistrackclub.herokuapp.com/news/",
+      "GET News: http://illinoistrackclub.herokuapp.com/news/getNews/[id]/",
+      "POST News: http://illinoistrackclub.herokuapp.com/news/newNews/",
+      "PUT News: http://illinoistrackclub.herokuapp.com/news/updateNews/[id]/",
+      "DELETE News: http://illinoistrackclub.herokuapp.com/news/deleteNews/[id]/",
     ]})
 
 # ATHLETE FILTERS
@@ -161,6 +167,35 @@ class ResultPUT(generics.RetrieveUpdateAPIView):
 class ResultDELETE(generics.DestroyAPIView):
   queryset = Result.objects.all()
   serializer_class = ResultSerializer
+
+# NEWS FITLER
+class NewsFilter(django_filters.FilterSet):
+  class Meta:
+    model = News
+    fields = ['author', 'post_subject', 'post_datetime', 'post_season']
+
+# NEWS SERIALIZERS
+class NewsGETAll(generics.ListAPIView):
+  queryset = News.objects.all()
+  serializer_class = NewsSerializer
+  filter_backends = (filters.DjangoFilterBackend,)
+  filter_class = NewsFilter
+
+class NewsGET(generics.RetrieveAPIView):
+  queryset = News.objects.all()
+  serializer_class = NewsSerializer
+
+class NewsPOST(generics.CreateAPIView):
+  queryset = News.objects.all()
+  serializer_class = NewsSerializer
+
+class NewsPUT(generics.RetrieveUpdateAPIView):
+  queryset = News.objects.all()
+  serializer_class = NewsSerializer
+
+class NewsDELETE(generics.DestroyAPIView):
+  queryset = News.objects.all()
+  serializer_class = NewsSerializer
 
 # TOP PERFORMANCES
 @api_view(['GET'])

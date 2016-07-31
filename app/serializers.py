@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from app.models import Athlete, Event, Meet, Result
+from app.models import Athlete, Event, Meet, Result, News
 
 class AthleteSerializer(serializers.ModelSerializer):
   class Meta:
@@ -21,3 +21,8 @@ class ResultSerializer(serializers.ModelSerializer):
     model = Result
     fields = ('id', 'athlete', 'distanceResult', 'event', 'meet', 'performance', 'result_membership')
     depth = 1
+
+class NewsSerializer(serializers.ModelSerializer):
+  class Meta:
+    model = News
+    fields = ('id', 'author', 'post_subject', 'post_text', 'post_datetime', 'post_season')
