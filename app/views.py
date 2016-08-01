@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
+from django.db.models import Max, Min
 
 from rest_framework import filters, status, generics
 from rest_framework.decorators import api_view
@@ -162,6 +163,55 @@ class ResultDELETE(generics.DestroyAPIView):
   queryset = Result.objects.all()
   serializer_class = ResultSerializer
 
+# RECORD PERFORMANCE
+@api_view(['GET'])
+def GETRecords(request):
+  data = {
+    "Indoor": [],
+    "Outdoor": [],
+    "XC": []
+  }
+
+  for event in Event.objects.all().order_by('season'):
+    data[event.season].append({
+      "name": event.name,
+      "record": getRecord(event.pk)
+    })
+
+  return Response(data)
+
+@api_view(['GET'])
+def GETRecord(request, pk):
+  return Response(getRecord(pk))
+
+# RECORD PERFORMANCE HELPER
+def getRecord(pk):
+  event = Event.objects.get(pk=pk)
+
+  if (event.gender == ModelEnums.BOTH):
+    maleRecord = getRecordByGender(event.result_set.all(), ModelEnums.MALE, event.distanceEvent)
+    femaleRecord = getRecordByGender(event.result_set.all(), ModelEnums.FEMALE, event.distanceEvent)
+
+    maleRecordSerialized = ResultSerializer(maleRecord, many=True)
+    femaleRecordSerialized = ResultSerializer(femaleRecord, many=True)
+
+    return { "maleRecord": maleRecordSerialized.data, "femaleRecord": femaleRecordSerialized.data }
+  elif (event.gender == ModelEnums.MALE):
+    maleRecord = getRecordByGender(event.result_set.all(), ModelEnums.MALE, event.distanceEvent)
+
+    maleRecordSerialized = ResultSerializer(maleRecord, many=True)
+    return { "maleRecord": maleRecordSerialized.data }
+  else:
+    femaleRecord = getRecordByGender(event.result_set.all(), ModelEnums.FEMALE, event.distanceEvent)
+
+    femaleRecordSerialized = ResultSerializer(femaleRecord, many=True)
+    return { "femaleRecord": femaleRecordSerialized.data }
+
+
+def getRecordByGender(events, gender, isDistance):
+  performance = '-performance' if isDistance else 'performance'
+  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance)[:1]
+
 # TOP PERFORMANCES
 @api_view(['GET'])
 def GETEventTopPerformances(request):
@@ -180,11 +230,8 @@ def GETEventTopPerformances(request):
   return Response(data)
 
 @api_view(['GET'])
-def GETEventTopPerformance(request, pk):
+def GETEventTopPerformances(request, pk):
   return Response(getTopPerformances(pk))
-
-
-# HELPER FUNCTIONS
 
 # TOP PERFORMANCE HELPERS
 def getTopPerformanceByGender(events, gender, isDistance):
