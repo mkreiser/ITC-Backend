@@ -230,7 +230,7 @@ def GETEventTopPerformances(request):
   return Response(data)
 
 @api_view(['GET'])
-def GETEventTopPerformances(request, pk):
+def GETEventTopPerformance(request, pk):
   return Response(getTopPerformances(pk))
 
 # TOP PERFORMANCE HELPERS
