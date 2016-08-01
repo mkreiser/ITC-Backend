@@ -87,4 +87,4 @@ class News (models.Model):
 
 
   def __str__(self):
-    return str(self.author + ': ' + self.post_subject)
+    return str(self.author + ': ' + self.post_subject + ' - ' + str(self.post_datetime))
