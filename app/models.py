@@ -85,6 +85,5 @@ class News (models.Model):
   post_datetime = models.DateTimeField()
   post_season = models.CharField(max_length = 10, choices = ModelEnums.SEASON_OPTIONS)
 
-
   def __str__(self):
-    return str(self.author + ': ' + self.post_subject + ' - ' + str(self.post_datetime))
+    return self.author + ': ' + self.post_subject + ' - ' + str(self.post_datetime)
