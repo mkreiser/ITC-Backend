@@ -20,7 +20,7 @@ urlpatterns = [
   url(r'^events/getTopPerformances/(?P<pk>[0-9]+)/$', views.GETEventTopPerformance),
   url(r'^events/getTopPerformances/$', views.GETEventTopPerformances),
 
-  url(r'^events/getRecord/(?P<pk>[0-9]+)/$', views.GETRecord),
+  url(r'^events/getRecords/(?P<pk>[0-9]+)/$', views.GETRecord),
   url(r'^events/getRecords/$', views.GETRecords),
 
   url(r'^meets/$', views.MeetGETAll.as_view()),

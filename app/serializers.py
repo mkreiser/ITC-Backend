@@ -22,6 +22,11 @@ class ResultSerializer(serializers.ModelSerializer):
     fields = ('id', 'athlete', 'distanceResult', 'event', 'meet', 'performance', 'result_membership')
     depth = 1
 
+class ResultSerializerNoDepth(serializers.ModelSerializer):
+  class Meta:
+    model = Result
+    fields = ('id', 'athlete', 'distanceResult', 'event', 'meet', 'performance', 'result_membership')
+
 class NewsSerializer(serializers.ModelSerializer):
   class Meta:
     model = News
