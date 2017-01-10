@@ -176,7 +176,13 @@ class ResultDELETE(generics.DestroyAPIView):
 class NewsFilter(django_filters.FilterSet):
   class Meta:
     model = News
-    fields = ['author', 'post_subject', 'post_datetime', 'post_season']
+    fields = {
+            'author': ['contains'],
+            'post_datetime': ['year'],
+            'post_subject': ['contains'],
+            'post_season': ['contains'],
+            'post_text': ['contains']
+        }
 
 # NEWS SERIALIZERS
 class NewsGETAll(generics.ListAPIView):
