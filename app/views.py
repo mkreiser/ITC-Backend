@@ -11,7 +11,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from app.models import Athlete, Event, Meet, Result, News, ModelEnums
-from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer, NewsSerializer
+from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer, ResultSerializerNoDepth, NewsSerializer
 
 import django_filters
 
@@ -19,38 +19,41 @@ import django_filters
 @api_view(('GET',))
 def api_root(request, format=None):
     return Response({ "routes": [
-      "GET ALL Athletes: http://illinoistrackclub.herokuapp.com/athletes/",
-      "GET Athlete: http://illinoistrackclub.herokuapp.com/athletes/getAthlete/[id]/",
-      "POST Athlete: http://illinoistrackclub.herokuapp.com/athletes/newAthlete/",
-      "PUT Athlete: http://illinoistrackclub.herokuapp.com/athletes/updateAthlete/[id]/",
-      "DELETE Athlete: http://illinoistrackclub.herokuapp.com/athletes/deleteAthlete/[id]/",
+      "GET ALL Athletes: http://localhost:8000/athletes/",
+      "GET Athlete: http://localhost:8000/athletes/getAthlete/[id]/",
+      "POST Athlete: http://localhost:8000/athletes/newAthlete/",
+      "PUT Athlete: http://localhost:8000/athletes/updateAthlete/[id]/",
+      "DELETE Athlete: http://localhost:8000/athletes/deleteAthlete/[id]/",
 
-      "GET ALL Events: http://illinoistrackclub.herokuapp.com/events/",
-      "GET Event: http://illinoistrackclub.herokuapp.com/events/getEvent/[id]/",
-      "POST Event: http://illinoistrackclub.herokuapp.com/events/newEvent/",
-      "PUT Event: http://illinoistrackclub.herokuapp.com/events/updateEvent/[id]/",
-      "DELETE Event: http://illinoistrackclub.herokuapp.com/events/deleteEvent/[id]/",
+      "GET ALL Events: http://localhost:8000/events/",
+      "GET Event: http://localhost:8000/events/getEvent/[id]/",
+      "POST Event: http://localhost:8000/events/newEvent/",
+      "PUT Event: http://localhost:8000/events/updateEvent/[id]/",
+      "DELETE Event: http://localhost:8000/events/deleteEvent/[id]/",
 
-      "GET ALL Top 10 Performances: http://illinoistrackclub.herokuapp.com/events/getTopPerformances",
-      "GET Event Top 10 Performances: http://illinoistrackclub.herokuapp.com/events/getTopPerformances/[event_id]/",
+      "GET ALL Top 10 Performances: http://localhost:8000/events/getTopPerformances/",
+      "GET Event Top 10 Performances: http://localhost:8000/events/getTopPerformances/[event_id]/",
 
-      "GET ALL Meets: http://illinoistrackclub.herokuapp.com/meets/",
-      "GET Meet: http://illinoistrackclub.herokuapp.com/meets/getMeet/[id]/",
-      "POST Meet: http://illinoistrackclub.herokuapp.com/meets/newMeet/",
-      "PUT Meet: http://illinoistrackclub.herokuapp.com/meets/updateMeet/[id]/",
-      "DELETE Meet: http://illinoistrackclub.herokuapp.com/meets/deleteMeet/[id]/",
+      "GET ALL Records: http://localhost:8000/events/getRecords/",
+      "GET Event Record: http://localhost:8000/events/getRecords/[event_id]/",
 
-      "GET ALL Results: http://illinoistrackclub.herokuapp.com/results/",
-      "GET Result: http://illinoistrackclub.herokuapp.com/results/getResult/[id]/",
-      "POST Result: http://illinoistrackclub.herokuapp.com/results/newResult/",
-      "PUT Result: http://illinoistrackclub.herokuapp.com/results/updateResult/[id]/",
-      "DELETE Result: http://illinoistrackclub.herokuapp.com/results/deleteResult/[id]/",
+      "GET ALL Meets: http://localhost:8000/meets/",
+      "GET Meet: http://localhost:8000/meets/getMeet/[id]/",
+      "POST Meet: http://localhost:8000/meets/newMeet/",
+      "PUT Meet: http://localhost:8000/meets/updateMeet/[id]/",
+      "DELETE Meet: http://localhost:8000/meets/deleteMeet/[id]/",
 
-      "GET ALL News: http://illinoistrackclub.herokuapp.com/news/",
-      "GET News: http://illinoistrackclub.herokuapp.com/news/getNews/[id]/",
-      "POST News: http://illinoistrackclub.herokuapp.com/news/newNews/",
-      "PUT News: http://illinoistrackclub.herokuapp.com/news/updateNews/[id]/",
-      "DELETE News: http://illinoistrackclub.herokuapp.com/news/deleteNews/[id]/",
+      "GET ALL Results: http://localhost:8000/results/",
+      "GET Result: http://localhost:8000/results/getResult/[id]/",
+      "POST Result: http://localhost:8000/results/newResult/",
+      "PUT Result: http://localhost:8000/results/updateResult/[id]/",
+      "DELETE Result: http://localhost:8000/results/deleteResult/[id]/",
+
+      "GET ALL News: http://localhost:8000/news/",
+      "GET News: http://localhost:8000/news/getNews/[id]/",
+      "POST News: http://localhost:8000/news/newNews/",
+      "PUT News: http://localhost:8000/news/updateNews/[id]/",
+      "DELETE News: http://localhost:8000/news/deleteNews/[id]/",
     ]})
 
 # ATHLETE FILTERS
@@ -62,6 +65,9 @@ class AthleteFilter(django_filters.FilterSet):
 # ATHLETE SERIALIZERS
 class AthleteGETAll(generics.ListAPIView):
   queryset = Athlete.objects.all()
+  # for athlete in queryset:
+  #   for results in athlete.result_set.all():
+  #     print(str(athlete) + " - " + str(results))
   serializer_class = AthleteSerializer
   filter_backends = (filters.SearchFilter,)
   search_fields = ['name']
@@ -159,11 +165,11 @@ class ResultGET(generics.RetrieveAPIView):
 
 class ResultPOST(generics.CreateAPIView):
   queryset = Result.objects.all()
-  serializer_class = ResultSerializer
+  serializer_class = ResultSerializerNoDepth
 
 class ResultPUT(generics.RetrieveUpdateAPIView):
   queryset = Result.objects.all()
-  serializer_class = ResultSerializer
+  serializer_class = ResultSerializerNoDepth
 
 class ResultDELETE(generics.DestroyAPIView):
   queryset = Result.objects.all()
@@ -173,7 +179,13 @@ class ResultDELETE(generics.DestroyAPIView):
 class NewsFilter(django_filters.FilterSet):
   class Meta:
     model = News
-    fields = ['author', 'post_subject', 'post_datetime', 'post_season']
+    fields = {
+            'author': ['contains'],
+            'post_datetime': ['year'],
+            'post_subject': ['contains'],
+            'post_season': ['contains'],
+            'post_text': ['contains']
+        }
 
 # NEWS SERIALIZERS
 class NewsGETAll(generics.ListAPIView):
@@ -197,6 +209,7 @@ class NewsPUT(generics.RetrieveUpdateAPIView):
 class NewsDELETE(generics.DestroyAPIView):
   queryset = News.objects.all()
   serializer_class = NewsSerializer
+
 
 # RECORD PERFORMANCE
 @api_view(['GET'])
@@ -271,7 +284,7 @@ def GETEventTopPerformance(request, pk):
 # TOP PERFORMANCE HELPERS
 def getTopPerformanceByGender(events, gender, isDistance):
   performance = '-performance' if isDistance else 'performance'
-  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance)[:10]
+  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance).distinct()[:10]
 
 
 def getTopPerformances(pk):
