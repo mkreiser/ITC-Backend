@@ -76,7 +76,7 @@ class Result (models.Model):
   result_membership = models.CharField(max_length = 6, choices = ModelEnums.MEMBERSHIP_OPTIONS, default = ModelEnums.CLUB)
 
   def __str__(self):
-    return str(self.athlete + ', ' + str(self.performance))
+    return str(self.athlete) + ' - ' + str(self.meet) + ' - ' + str(self.performance) + ' - ' + str(self.event)
 
 class News (models.Model):
   author = models.CharField(max_length = 40)

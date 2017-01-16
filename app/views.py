@@ -65,6 +65,9 @@ class AthleteFilter(django_filters.FilterSet):
 # ATHLETE SERIALIZERS
 class AthleteGETAll(generics.ListAPIView):
   queryset = Athlete.objects.all()
+  # for athlete in queryset:
+  #   for results in athlete.result_set.all():
+  #     print(str(athlete) + " - " + str(results))
   serializer_class = AthleteSerializer
   filter_backends = (filters.SearchFilter,)
   search_fields = ['name']
