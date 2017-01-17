@@ -83378,7 +83378,10 @@
     "pk": 1,
     "fields": {
         "name": "Can add log entry",
-        "content_type": 1,
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
         "codename": "add_logentry"
     }
 },
@@ -83387,7 +83390,10 @@
     "pk": 2,
     "fields": {
         "name": "Can change log entry",
-        "content_type": 1,
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
         "codename": "change_logentry"
     }
 },
@@ -83396,7 +83402,10 @@
     "pk": 3,
     "fields": {
         "name": "Can delete log entry",
-        "content_type": 1,
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
         "codename": "delete_logentry"
     }
 },
@@ -83405,7 +83414,10 @@
     "pk": 4,
     "fields": {
         "name": "Can add permission",
-        "content_type": 2,
+        "content_type": [
+            "auth",
+            "permission"
+        ],
         "codename": "add_permission"
     }
 },
@@ -83414,7 +83426,10 @@
     "pk": 5,
     "fields": {
         "name": "Can change permission",
-        "content_type": 2,
+        "content_type": [
+            "auth",
+            "permission"
+        ],
         "codename": "change_permission"
     }
 },
@@ -83423,7 +83438,10 @@
     "pk": 6,
     "fields": {
         "name": "Can delete permission",
-        "content_type": 2,
+        "content_type": [
+            "auth",
+            "permission"
+        ],
         "codename": "delete_permission"
     }
 },
@@ -83432,7 +83450,10 @@
     "pk": 7,
     "fields": {
         "name": "Can add group",
-        "content_type": 3,
+        "content_type": [
+            "auth",
+            "group"
+        ],
         "codename": "add_group"
     }
 },
@@ -83441,7 +83462,10 @@
     "pk": 8,
     "fields": {
         "name": "Can change group",
-        "content_type": 3,
+        "content_type": [
+            "auth",
+            "group"
+        ],
         "codename": "change_group"
     }
 },
@@ -83450,7 +83474,10 @@
     "pk": 9,
     "fields": {
         "name": "Can delete group",
-        "content_type": 3,
+        "content_type": [
+            "auth",
+            "group"
+        ],
         "codename": "delete_group"
     }
 },
@@ -83459,7 +83486,10 @@
     "pk": 10,
     "fields": {
         "name": "Can add user",
-        "content_type": 4,
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "codename": "add_user"
     }
 },
@@ -83468,7 +83498,10 @@
     "pk": 11,
     "fields": {
         "name": "Can change user",
-        "content_type": 4,
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "codename": "change_user"
     }
 },
@@ -83477,7 +83510,10 @@
     "pk": 12,
     "fields": {
         "name": "Can delete user",
-        "content_type": 4,
+        "content_type": [
+            "auth",
+            "user"
+        ],
         "codename": "delete_user"
     }
 },
@@ -83486,7 +83522,10 @@
     "pk": 13,
     "fields": {
         "name": "Can add content type",
-        "content_type": 5,
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
         "codename": "add_contenttype"
     }
 },
@@ -83495,7 +83534,10 @@
     "pk": 14,
     "fields": {
         "name": "Can change content type",
-        "content_type": 5,
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
         "codename": "change_contenttype"
     }
 },
@@ -83504,7 +83546,10 @@
     "pk": 15,
     "fields": {
         "name": "Can delete content type",
-        "content_type": 5,
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
         "codename": "delete_contenttype"
     }
 },
@@ -83513,7 +83558,10 @@
     "pk": 16,
     "fields": {
         "name": "Can add session",
-        "content_type": 6,
+        "content_type": [
+            "sessions",
+            "session"
+        ],
         "codename": "add_session"
     }
 },
@@ -83522,7 +83570,10 @@
     "pk": 17,
     "fields": {
         "name": "Can change session",
-        "content_type": 6,
+        "content_type": [
+            "sessions",
+            "session"
+        ],
         "codename": "change_session"
     }
 },
@@ -83531,7 +83582,10 @@
     "pk": 18,
     "fields": {
         "name": "Can delete session",
-        "content_type": 6,
+        "content_type": [
+            "sessions",
+            "session"
+        ],
         "codename": "delete_session"
     }
 },
@@ -83540,7 +83594,10 @@
     "pk": 19,
     "fields": {
         "name": "Can add model enums",
-        "content_type": 7,
+        "content_type": [
+            "app",
+            "modelenums"
+        ],
         "codename": "add_modelenums"
     }
 },
@@ -83549,7 +83606,10 @@
     "pk": 20,
     "fields": {
         "name": "Can change model enums",
-        "content_type": 7,
+        "content_type": [
+            "app",
+            "modelenums"
+        ],
         "codename": "change_modelenums"
     }
 },
@@ -83558,7 +83618,10 @@
     "pk": 21,
     "fields": {
         "name": "Can delete model enums",
-        "content_type": 7,
+        "content_type": [
+            "app",
+            "modelenums"
+        ],
         "codename": "delete_modelenums"
     }
 },
@@ -83567,7 +83630,10 @@
     "pk": 22,
     "fields": {
         "name": "Can add athlete",
-        "content_type": 8,
+        "content_type": [
+            "app",
+            "athlete"
+        ],
         "codename": "add_athlete"
     }
 },
@@ -83576,7 +83642,10 @@
     "pk": 23,
     "fields": {
         "name": "Can change athlete",
-        "content_type": 8,
+        "content_type": [
+            "app",
+            "athlete"
+        ],
         "codename": "change_athlete"
     }
 },
@@ -83585,7 +83654,10 @@
     "pk": 24,
     "fields": {
         "name": "Can delete athlete",
-        "content_type": 8,
+        "content_type": [
+            "app",
+            "athlete"
+        ],
         "codename": "delete_athlete"
     }
 },
@@ -83594,7 +83666,10 @@
     "pk": 25,
     "fields": {
         "name": "Can add event",
-        "content_type": 9,
+        "content_type": [
+            "app",
+            "event"
+        ],
         "codename": "add_event"
     }
 },
@@ -83603,7 +83678,10 @@
     "pk": 26,
     "fields": {
         "name": "Can change event",
-        "content_type": 9,
+        "content_type": [
+            "app",
+            "event"
+        ],
         "codename": "change_event"
     }
 },
@@ -83612,7 +83690,10 @@
     "pk": 27,
     "fields": {
         "name": "Can delete event",
-        "content_type": 9,
+        "content_type": [
+            "app",
+            "event"
+        ],
         "codename": "delete_event"
     }
 },
@@ -83621,7 +83702,10 @@
     "pk": 28,
     "fields": {
         "name": "Can add meet",
-        "content_type": 10,
+        "content_type": [
+            "app",
+            "meet"
+        ],
         "codename": "add_meet"
     }
 },
@@ -83630,7 +83714,10 @@
     "pk": 29,
     "fields": {
         "name": "Can change meet",
-        "content_type": 10,
+        "content_type": [
+            "app",
+            "meet"
+        ],
         "codename": "change_meet"
     }
 },
@@ -83639,7 +83726,10 @@
     "pk": 30,
     "fields": {
         "name": "Can delete meet",
-        "content_type": 10,
+        "content_type": [
+            "app",
+            "meet"
+        ],
         "codename": "delete_meet"
     }
 },
@@ -83648,7 +83738,10 @@
     "pk": 31,
     "fields": {
         "name": "Can add result",
-        "content_type": 11,
+        "content_type": [
+            "app",
+            "result"
+        ],
         "codename": "add_result"
     }
 },
@@ -83657,7 +83750,10 @@
     "pk": 32,
     "fields": {
         "name": "Can change result",
-        "content_type": 11,
+        "content_type": [
+            "app",
+            "result"
+        ],
         "codename": "change_result"
     }
 },
@@ -83666,7 +83762,10 @@
     "pk": 33,
     "fields": {
         "name": "Can delete result",
-        "content_type": 11,
+        "content_type": [
+            "app",
+            "result"
+        ],
         "codename": "delete_result"
     }
 },
@@ -83675,7 +83774,10 @@
     "pk": 34,
     "fields": {
         "name": "Can add cors model",
-        "content_type": 12,
+        "content_type": [
+            "corsheaders",
+            "corsmodel"
+        ],
         "codename": "add_corsmodel"
     }
 },
@@ -83684,7 +83786,10 @@
     "pk": 35,
     "fields": {
         "name": "Can change cors model",
-        "content_type": 12,
+        "content_type": [
+            "corsheaders",
+            "corsmodel"
+        ],
         "codename": "change_corsmodel"
     }
 },
@@ -83693,7 +83798,10 @@
     "pk": 36,
     "fields": {
         "name": "Can delete cors model",
-        "content_type": 12,
+        "content_type": [
+            "corsheaders",
+            "corsmodel"
+        ],
         "codename": "delete_corsmodel"
     }
 },
@@ -83702,7 +83810,10 @@
     "pk": 37,
     "fields": {
         "name": "Can add news",
-        "content_type": 13,
+        "content_type": [
+            "app",
+            "news"
+        ],
         "codename": "add_news"
     }
 },
@@ -83711,7 +83822,10 @@
     "pk": 38,
     "fields": {
         "name": "Can change news",
-        "content_type": 13,
+        "content_type": [
+            "app",
+            "news"
+        ],
         "codename": "change_news"
     }
 },
@@ -83720,7 +83834,10 @@
     "pk": 39,
     "fields": {
         "name": "Can delete news",
-        "content_type": 13,
+        "content_type": [
+            "app",
+            "news"
+        ],
         "codename": "delete_news"
     }
 }
