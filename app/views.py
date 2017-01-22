@@ -64,7 +64,7 @@ def api_root(request, format=None):
       "PUT News: https://illinoistrackclub.herokuapp.com/news/updateNews/[id]/",
       "DELETE News: https://illinoistrackclub.herokuapp.com/news/deleteNews/[id]/",
 
-      "Logout: http://localhost:8000/logout"
+      "Logout: https://illinoistrackclub.herokuapp.com/logout"
     ]})
 
 # ATHLETE FILTERS
