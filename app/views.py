@@ -1,10 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.db.models import Max, Min
 
+from django.contrib.auth import logout
+
+from django.core.exceptions import ObjectDoesNotExist
+
 from rest_framework import filters, status, generics
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.parsers import JSONParser, FileUploadParser
 from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
@@ -15,8 +19,13 @@ from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, 
 
 import django_filters
 
+from rest_framework.permissions import IsAdminUser, AllowAny
+
+from django.contrib.admin.views.decorators import staff_member_required
+
 # Root page directory
 @api_view(('GET',))
+@permission_classes((AllowAny,))
 def api_root(request, format=None):
     return Response({ "routes": [
       "GET ALL Athletes: https://illinoistrackclub.herokuapp.com/athletes/",
@@ -54,6 +63,8 @@ def api_root(request, format=None):
       "POST News: https://illinoistrackclub.herokuapp.com/news/newNews/",
       "PUT News: https://illinoistrackclub.herokuapp.com/news/updateNews/[id]/",
       "DELETE News: https://illinoistrackclub.herokuapp.com/news/deleteNews/[id]/",
+
+      "Logout: http://localhost:8000/logout"
     ]})
 
 # ATHLETE FILTERS
@@ -64,24 +75,30 @@ class AthleteFilter(django_filters.FilterSet):
 
 # ATHLETE SERIALIZERS
 class AthleteGETAll(generics.ListAPIView):
+  permission_classes = (AllowAny, )
   queryset = Athlete.objects.all()
   serializer_class = AthleteSerializer
   filter_backends = (filters.SearchFilter,)
   search_fields = ['name']
+    
 
 class AthleteGET(generics.RetrieveAPIView):
+  permission_classes = (AllowAny, )
   queryset = Athlete.objects.all()
   serializer_class = AthleteSerializer
 
 class AthletePOST(generics.CreateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Athlete.objects.all()
   serializer_class = AthleteSerializer
 
 class AthletePUT(generics.RetrieveUpdateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Athlete.objects.all()
   serializer_class = AthleteSerializer
 
 class AthleteDELETE(generics.DestroyAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Athlete.objects.all()
   serializer_class = AthleteSerializer
 
@@ -103,14 +120,17 @@ class EventGET(generics.RetrieveAPIView):
   serializer_class = EventSerializer
 
 class EventPOST(generics.CreateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Event.objects.all()
   serializer_class = EventSerializer
 
 class EventPUT(generics.RetrieveUpdateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Event.objects.all()
   serializer_class = EventSerializer
 
 class EventDELETE(generics.DestroyAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Event.objects.all()
   serializer_class = EventSerializer
 
@@ -132,14 +152,17 @@ class MeetGET(generics.RetrieveAPIView):
   serializer_class = MeetSerializer
 
 class MeetPOST(generics.CreateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Meet.objects.all()
   serializer_class = MeetSerializer
 
 class MeetPUT(generics.RetrieveUpdateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Meet.objects.all()
   serializer_class = MeetSerializer
 
 class MeetDELETE(generics.DestroyAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Meet.objects.all()
   serializer_class = MeetSerializer
 
@@ -161,14 +184,17 @@ class ResultGET(generics.RetrieveAPIView):
   serializer_class = ResultSerializer
 
 class ResultPOST(generics.CreateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Result.objects.all()
   serializer_class = ResultSerializerNoDepth
 
 class ResultPUT(generics.RetrieveUpdateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Result.objects.all()
   serializer_class = ResultSerializerNoDepth
 
 class ResultDELETE(generics.DestroyAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = Result.objects.all()
   serializer_class = ResultSerializer
 
@@ -196,14 +222,17 @@ class NewsGET(generics.RetrieveAPIView):
   serializer_class = NewsSerializer
 
 class NewsPOST(generics.CreateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = News.objects.all()
   serializer_class = NewsSerializer
 
 class NewsPUT(generics.RetrieveUpdateAPIView):
+  permission_classes = (IsAdminUser, )
   queryset = News.objects.all()
   serializer_class = NewsSerializer
 
 class NewsDELETE(generics.DestroyAPIView):
+  permission_classes = (IsAdminUser, )  
   queryset = News.objects.all()
   serializer_class = NewsSerializer
 

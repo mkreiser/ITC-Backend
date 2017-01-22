@@ -118,9 +118,7 @@ db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:9000',
     'illinoistrackclub.com',
-    'mikekreiser.me'
 )
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
