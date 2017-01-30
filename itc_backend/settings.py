@@ -119,6 +119,7 @@ DATABASES['default'].update(db_from_env)
 
 CORS_ORIGIN_WHITELIST = (
     'illinoistrackclub.com',
+    'www.illinoistrackclub.com',
 )
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
