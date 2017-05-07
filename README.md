@@ -8,7 +8,7 @@ First, run `git pull` to get the latest stuff.
 
 1. On local, open a terminal
 
-2. Run `python manage.py dumpdata --exclude auth.permission --exclude contenttype --exclude corsheaders > data.json`. This exports the server to a JSON file. This is the backup of the server. The server can be restored from this file.
+2. Run `python manage.py dumpdata --exclude auth.permission --exclude contenttypes --exclude corsheaders > data.json`. This exports the server to a JSON file. This is the backup of the server. The server can be restored from this file.
 
 3. Move this file to `db_backups` and rename it with the current date (and time preferably).
 
@@ -22,7 +22,7 @@ First, run `git pull` to get the latest stuff.
 
 8. Once everything looks good, shut off the server (`CTRL-C`) and the frontend if you spun that up.
 
-9. Now you need to dump out the updated server again. Run `python manage.py dumpdata --exclude auth.permission --exclude contenttype --exclude corsheaders > data.json` again. Keep that there, but make a copy, rename it with date and time, and put it in the `db_backups` folders.
+9. Now you need to dump out the updated server again. Run `python manage.py dumpdata --exclude auth.permission --exclude contenttypes --exclude corsheaders > data.json` again. Keep that there, but make a copy, rename it with date and time, and put it in the `db_backups` folders.
 
 10. Run `git status` to make sure only the files you changed show up. If you run a migration, there will be a weirdly titled migration file. You will need that.
 
@@ -104,4 +104,4 @@ Note with the Heroku filesystem: Heroku runs an empirical filesystem. If you sav
 
 Note if you run this on Heroku and do not export the file before leaving the instance, the file will be deleted.
 
-    python manage.py dumpdata --exclude auth.permission --exclude contenttype --exclude corsheaders > data.json
+    python manage.py dumpdata --exclude auth.permission --exclude contenttypes --exclude corsheaders > data.json
