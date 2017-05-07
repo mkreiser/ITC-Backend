@@ -44,39 +44,64 @@ First, run `git pull` to get the latest stuff.
 Everything below is for changing the server itself in some manner, not just adding entries. Be careful here. Make sure any changes run as expeced on local before pushing to heroku.
 
 ## Dev dependencies
+
 * Python 3.5.2
 * Django 1.9.7
 
-Install these then run `pip install -r requirements.txt` in this directory from a terminal
+Install Python 3.5.x via `https://www.python.org/downloads/`, including the pip package manager, then run:
+
+    pip install 'Django==1.9.7'
+    pip install -r requirements.txt
 
 ## Local development
 
 The local database differs from the Heroku DB. Make sure any local changes compile before pushing to Heroku. The local DB points to db.sqllite3
 
 ### Run the server
+
+If the server fails to start up (without an error message), just keep running this command until it starts up.
+
     python manage.py runserver
 
-### After changes to models
+### After changes to models (Athlete, Meet, Result, etc)
+
+Locally run:
+
     python manage.py makemigrations
     python manage.py migrate
 
+This updates the local DB tables. Once everything is working locally, commit and push code as usual. Then log into Heroku via bash and run:
+
+    python manage.py migrate
+
+This will update the Heroku DB tables.
+
 ## Working with Heroku
 
-Hosted at `http://illinoistrackclub.herokuapp.com/`
+Heroku instance is hosted at `http://illinoistrackclub.herokuapp.com/`.
+
+Note with the Heroku filesystem: Heroku runs an empirical filesystem. If you save/create/change a file when logged into the Herkou instance, it will not be saved. Changes to the Herkou DB will be saved.
 
 ### Updating Heroku after updating a model locally
+
     git pull master
     git push heroku master
     heroku run python manage.py migrate
 
-### Enter Heroku instance via bash (normal console)
+### Enter Heroku instance via bash terminal (normal console)
+
     heroku run bash
 
-### Enter Heroku instance via python (python console)
+### Enter Heroku instance via python terminal (python console)
+
     heroku run python manage.py shell
 
 ### View server logs
+
     heroku logs
 
 ## Backup server data
-    python manage.py dumpdata --exclude=corsheaders > data.json
+
+Note if you run this on Heroku and do not export the file before leaving the instance, the file will be deleted.
+
+    python manage.py dumpdata --exclude auth.permission --exclude contenttype --exclude corsheaders > data.json
