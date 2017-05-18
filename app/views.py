@@ -1,15 +1,16 @@
-from django.shortcuts import render, redirect
-from django.http import HttpResponse
-from django.views.decorators.csrf import csrf_exempt
-from django.db.models import Max, Min
-
+from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib.auth import logout
-
 from django.core.exceptions import ObjectDoesNotExist
+from django.db.models import Max, Min
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
+from django.views.decorators.cache import cache_page
+from django.views.decorators.csrf import csrf_exempt
 
 from rest_framework import filters, status, generics
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.parsers import JSONParser, FileUploadParser
+from rest_framework.permissions import IsAdminUser, AllowAny
 from rest_framework.renderers import JSONRenderer
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -18,10 +19,6 @@ from app.models import Athlete, Event, Meet, Result, News, ModelEnums
 from app.serializers import AthleteSerializer, EventSerializer, MeetSerializer, ResultSerializer, ResultSerializerNoDepth, NewsSerializer
 
 import django_filters
-
-from rest_framework.permissions import IsAdminUser, AllowAny
-
-from django.contrib.admin.views.decorators import staff_member_required
 
 # Root page directory
 @api_view(('GET',))
@@ -290,6 +287,7 @@ def getRecordByGender(events, gender, isDistance):
 
 # TOP PERFORMANCES
 @api_view(['GET'])
+@cache_page(60 * 20)
 def GETEventTopPerformances(request):
   data = {
     "Indoor": [],
@@ -338,6 +336,7 @@ def getTopPerformances(pk):
     return { "femaleRecords": femaleRecords.data }
 
 @api_view(['GET'])
+@cache_page(60 * 20)
 def GETAthletePerformances(request, pk):
   athlete = Athlete.objects.filter(pk=pk)
 
@@ -360,6 +359,7 @@ def GETAthletePerformances(request, pk):
   return Response(data)
 
 @api_view(['GET'])
+@cache_page(60 * 20)
 def GETAthleteBestPerformances(request, pk):
   athlete = Athlete.objects.filter(pk=pk)
 
