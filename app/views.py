@@ -34,6 +34,9 @@ def api_root(request, format=None):
       "PUT Athlete: https://illinoistrackclub.herokuapp.com/athletes/updateAthlete/[id]/",
       "DELETE Athlete: https://illinoistrackclub.herokuapp.com/athletes/deleteAthlete/[id]/",
 
+      "GET Athlete's Results: https://illinoistrackclub.herokuapp.com/athletes/getAthleteResults/[id]/",
+      "GET Athlete's PRs: https://illinoistrackclub.herokuapp.com/athletes/getAthleteBests/[id]/",
+
       "GET ALL Events: https://illinoistrackclub.herokuapp.com/events/",
       "GET Event: https://illinoistrackclub.herokuapp.com/events/getEvent/[id]/",
       "POST Event: https://illinoistrackclub.herokuapp.com/events/newEvent/",
@@ -80,7 +83,6 @@ class AthleteGETAll(generics.ListAPIView):
   serializer_class = AthleteSerializer
   filter_backends = (filters.SearchFilter,)
   search_fields = ['name']
-    
 
 class AthleteGET(generics.RetrieveAPIView):
   permission_classes = (AllowAny, )
@@ -232,7 +234,7 @@ class NewsPUT(generics.RetrieveUpdateAPIView):
   serializer_class = NewsSerializer
 
 class NewsDELETE(generics.DestroyAPIView):
-  permission_classes = (IsAdminUser, )  
+  permission_classes = (IsAdminUser, )
   queryset = News.objects.all()
   serializer_class = NewsSerializer
 
@@ -334,3 +336,47 @@ def getTopPerformances(pk):
     femaleRecords = ResultSerializer(femaleRecords, many=True)
 
     return { "femaleRecords": femaleRecords.data }
+
+@api_view(['GET'])
+def GETAthletePerformances(request, pk):
+  athlete = Athlete.objects.filter(pk=pk)
+
+  data = {
+    "Indoor": [],
+    "Outdoor": [],
+    "XC": []
+  }
+
+  for event in Event.objects.all().order_by('season'):
+    performance = '-performance' if event.distanceEvent else 'performance'
+    results = ResultSerializer(Result.objects.filter(athlete=athlete, event=event).order_by(performance), many=True)
+
+    if (results.data != []):
+      data[event.season].append({
+        "name": event.name,
+        "performances": results.data
+      })
+
+  return Response(data)
+
+@api_view(['GET'])
+def GETAthleteBestPerformances(request, pk):
+  athlete = Athlete.objects.filter(pk=pk)
+
+  data = {
+    "Indoor": [],
+    "Outdoor": [],
+    "XC": []
+  }
+
+  for event in Event.objects.all().order_by('season'):
+    performance = '-performance' if event.distanceEvent else 'performance'
+    results = ResultSerializer(Result.objects.filter(athlete=athlete, event=event).order_by(performance)[:1], many=True)
+
+    if (results.data != []):
+      data[event.season].append({
+        "name": event.name,
+        "performances": results.data
+      })
+
+  return Response(data)

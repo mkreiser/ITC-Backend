@@ -15,6 +15,9 @@ urlpatterns = [
   url(r'^athletes/updateAthlete/(?P<pk>[0-9]+)/$', views.AthletePUT.as_view()),
   url(r'^athletes/deleteAthlete/(?P<pk>[0-9]+)/$', views.AthleteDELETE.as_view()),
 
+  url(r'^athletes/getAthleteResults/(?P<pk>[0-9]+)/$', views.GETAthletePerformances),
+  url(r'^athletes/getAthleteBests/(?P<pk>[0-9]+)/$', views.GETAthleteBestPerformances),
+
   url(r'^events/$', views.EventGETAll.as_view()),
   url(r'^events/getEvent/(?P<pk>[0-9]+)/$', views.EventGET.as_view()),
   url(r'^events/newEvent/$', views.EventPOST.as_view()),
