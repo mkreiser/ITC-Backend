@@ -1,13 +1,12 @@
 from django.conf.urls import url
-from rest_framework.urlpatterns import format_suffix_patterns
-from app import views
 from django.contrib.auth import views as django_views
+
+from rest_framework.urlpatterns import format_suffix_patterns
+
+from app import views
 
 urlpatterns = [
   url(r'^$', views.api_root),
-
-  url(r'^logout/$', django_views.logout,
-                          {'next_page': '/'}),
 
   url(r'^athletes/$', views.AthleteGETAll.as_view()),
   url(r'^athletes/getAthlete/(?P<pk>[0-9]+)/$', views.AthleteGET.as_view()),
