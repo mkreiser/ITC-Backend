@@ -317,10 +317,13 @@ def getTopPerformanceByGender(events, gender, isDistance):
       #check if athlete is in usedAthletes list
       #if not, add them to topPerf and add the athlete to usedAthletes
       #otherwise, skip em.
-        if(i.athlete.all()[0] not in usedAthletes):
-          topPerf.append(i)
-          usedAthletes.append(i.athlete.all()[0])
-          print(i.athlete.all()[0])
+        if(len(i.athlete.all())<2):
+          if(i.athlete.all()[0] not in usedAthletes):
+            topPerf.append(i)
+            usedAthletes.append(i.athlete.all()[0])
+        else:
+            topPerf.append(i)
+            usedAthletes.append(i.athlete.all())
     else:
       break
   return topPerf
