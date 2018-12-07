@@ -310,7 +310,7 @@ def GETEventTopPerformance(request, pk):
 # TOP PERFORMANCE HELPERS
 def getTopPerformanceByGender(events, gender, isDistance):
   performance = '-performance' if isDistance else 'performance'
-  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance).distinct()[:10]
+  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance).distinct(athlete)[:10]
 
 
 def getTopPerformances(pk):
