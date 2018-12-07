@@ -310,7 +310,23 @@ def GETEventTopPerformance(request, pk):
 # TOP PERFORMANCE HELPERS
 def getTopPerformanceByGender(events, gender, isDistance):
   performance = '-performance' if isDistance else 'performance'
-  return Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance).distinct()[:10]
+  topPerf = []
+  usedAthletes = []
+  for i in Result.objects.filter(id__in=events, athlete__gender=gender).order_by(performance).distinct():
+    if(len(topPerf)<10):
+      #check if athlete is in usedAthletes list
+      #if not, add them to topPerf and add the athlete to usedAthletes
+      #otherwise, skip em.
+        if(len(i.athlete.all())<2):
+          if(i.athlete.all()[0] not in usedAthletes):
+            topPerf.append(i)
+            usedAthletes.append(i.athlete.all()[0])
+        else:
+            topPerf.append(i)
+            usedAthletes.append(i.athlete.all())
+    else:
+      break
+  return topPerf
 
 
 def getTopPerformances(pk):
