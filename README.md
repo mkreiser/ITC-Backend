@@ -45,13 +45,14 @@ Everything below is for changing the server itself in some manner, not just addi
 
 ## Dev dependencies
 
-* Python 3.5.2
+* Python 3.7.1
 * Django 1.9.7
 
-Install Python 3.5.x via `https://www.python.org/downloads/`, including the pip package manager, then run:
+Install Python 3.7.x via `https://www.python.org/downloads/`, including the pip package manager, then run:
 
     pip install 'Django==1.9.7'
     pip install -r requirements.txt
+    
 
 ## Local development
 
